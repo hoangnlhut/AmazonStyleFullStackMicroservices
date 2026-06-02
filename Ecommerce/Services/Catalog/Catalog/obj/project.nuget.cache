@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "vm/oOD8thfY=",
+  "success": true,
+  "projectFilePath": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Catalog\\Catalog.csproj",
+  "expectedPackageFiles": [
+    "E:\\All_INSTALLED_SOFTWARE\\Nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.16\\microsoft.aspnetcore.openapi.9.0.16.nupkg.sha512",
+    "E:\\All_INSTALLED_SOFTWARE\\Nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "E:\\All_INSTALLED_SOFTWARE\\Nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.13\\microsoft.windowsdesktop.app.ref.9.0.13.nupkg.sha512",
+    "E:\\All_INSTALLED_SOFTWARE\\Nuget\\packages\\microsoft.netcore.app.ref\\9.0.13\\microsoft.netcore.app.ref.9.0.13.nupkg.sha512",
+    "E:\\All_INSTALLED_SOFTWARE\\Nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.13\\microsoft.aspnetcore.app.ref.9.0.13.nupkg.sha512",
+    "E:\\All_INSTALLED_SOFTWARE\\Nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.13\\microsoft.netcore.app.host.win-x64.9.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
