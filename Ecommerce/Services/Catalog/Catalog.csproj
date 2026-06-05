@@ -17,8 +17,8 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Commands\" />
-    <Folder Include="Handlers\" />
     <Folder Include="Data\" />
+    <Folder Include="Handlers\" />
     <Folder Include="Queries\" />
   </ItemGroup>
 
