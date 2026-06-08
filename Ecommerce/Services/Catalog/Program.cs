@@ -1,3 +1,4 @@
+using Catalog.Data;
 using Catalog.Models;
 using Catalog.Repositories;
 
@@ -12,7 +13,11 @@ builder.Services.AddOpenApi();
 builder.Services.Configure<CatalogDatabaseSettings>(
     builder.Configuration.GetSection("DatabaseSettings"));
 
+builder.Services.AddSingleton<DatabaseSeeder>();
+
 builder.Services.AddScoped<IBrandRepository, BrandRepository>();
+builder.Services.AddScoped<ITypeRepository, TypeRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 var app = builder.Build();
 
@@ -20,6 +25,13 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+}
+
+// Seed the database
+using (var scope = app.Services.CreateScope())
+{
+    var seeder = scope.ServiceProvider.GetRequiredService<DatabaseSeeder>();
+    await seeder.SeedAsync();
 }
 
 app.UseHttpsRedirection();
