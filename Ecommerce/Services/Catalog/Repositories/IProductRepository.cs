@@ -9,10 +9,11 @@ namespace Catalog.Repositories
         Task<Pagination<Product>> GetProductsAsync(CatalogSpecParams specParams);
         Task<IEnumerable<Product>> GetProductsByNameAsync(string name);
         Task<IEnumerable<Product>> GetProductsByBrandAsync(string brand);
-        Task<Product> GetProductByIdAsync(Guid id);
+        Task<Product> GetProductByIdAsync(string id);
         Task<Product> CreateProductAsync(Product product);
-        Task<bool> DeleteProductAsync(Guid id);
+        Task<bool> DeleteProductAsync(string id);
         Task<bool> UpdateProductAsync(Product product);
-
+        Task<ProductBrand> GetBrandByIdAsync(string brandId);
+        Task<ProductType> GetTypeByIdAsync(string typeId);
     }
 }

@@ -35,3 +35,4 @@ namespace Catalog.Repositories
             await _typeCollection.DeleteOneAsync(t => t.Id == id);
         }
     }
+}
