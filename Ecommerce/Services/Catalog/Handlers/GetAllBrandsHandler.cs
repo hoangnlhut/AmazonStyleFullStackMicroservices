@@ -18,7 +18,7 @@ namespace Catalog.Handlers
         public async Task<IEnumerable<BrandResponse>> Handle(GetAllBrandsQuery request, CancellationToken cancellationToken)
         {
             var brandList = await _brandRepository.GetBrandsAsync();
-            return brandList.ToResponseList() ?? Enumerable.Empty<BrandResponse>();
+            return brandList.ToResponseList();
         }
     }
 }

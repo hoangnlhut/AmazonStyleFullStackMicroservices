@@ -1,6 +1,6 @@
 ﻿namespace Catalog.Responses
 {
-    public record BrandResponse
+    public record TypeResponse
     {
         public string? Id { get; set; }
         public string? Name { get; set; }

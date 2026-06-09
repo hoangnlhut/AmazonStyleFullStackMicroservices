@@ -3,7 +3,7 @@ using Catalog.Responses;
 
 namespace Catalog.Extentions
 {
-    public static class BrandExtention
+    public static class BrandMapper
     {
         public static IEnumerable<BrandResponse> ToResponseList(this IEnumerable<ProductBrand> brands)
         {
@@ -20,4 +20,3 @@ namespace Catalog.Extentions
         }
     }
 }
- 
