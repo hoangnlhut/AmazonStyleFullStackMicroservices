@@ -1,11 +1,11 @@
-﻿using Catalog.Extentions;
+﻿using Catalog.Mappers;
 using Catalog.Queries;
 using Catalog.Repositories;
 using Catalog.Responses;
 using Catalog.Specifications;
 using MediatR;
 
-namespace Catalog.Mappers
+namespace Catalog.Handlers
 {
     public class GetAllProductsHandler : IRequestHandler<GetAllProductsQuery, Pagination<ProductResponse>>
     {
@@ -18,7 +18,6 @@ namespace Catalog.Mappers
 
         public async Task<Pagination<ProductResponse>> Handle(GetAllProductsQuery request, CancellationToken cancellationToken)
         {
-       
             var productList = await _productRepository.GetProductsAsync(request.catalogSpecParams);
             return productList.ToResponse();
         }

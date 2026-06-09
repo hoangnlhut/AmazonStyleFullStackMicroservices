@@ -1,10 +1,10 @@
-﻿using Catalog.Extentions;
+﻿using Catalog.Mappers;
 using Catalog.Queries;
 using Catalog.Repositories;
 using Catalog.Responses;
 using MediatR;
 
-namespace Catalog.Mappers
+namespace Catalog.Handlers
 {
     public class GetAllTypesHandler : IRequestHandler<GetAllTypesQuery, IEnumerable<TypeResponse>>
     {

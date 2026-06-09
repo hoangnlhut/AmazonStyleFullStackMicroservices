@@ -2,7 +2,7 @@
 using Catalog.Responses;
 using Catalog.Specifications;
 
-namespace Catalog.Extentions
+namespace Catalog.Mappers
 {
     public static class ProductMapper
     {
@@ -15,6 +15,11 @@ namespace Catalog.Extentions
                 PageSize = products.PageSize,
                 PageIndex = products.PageIndex
             };
+        }
+
+        public static IEnumerable<ProductResponse> ToResponselist(this IEnumerable<Product> products)
+        {
+            return products.Select(product => product.ToResponse()).ToList();
         }
 
         public static ProductResponse ToResponse(this Product product)

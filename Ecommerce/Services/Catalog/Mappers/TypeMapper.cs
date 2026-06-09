@@ -1,7 +1,7 @@
 ﻿using Catalog.Entities;
 using Catalog.Responses;
 
-namespace Catalog.Extentions
+namespace Catalog.Mappers
 {
     public static class TypeMapper
     {
