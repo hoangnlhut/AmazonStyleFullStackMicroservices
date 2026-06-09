@@ -4,7 +4,7 @@ using Catalog.Repositories;
 using Catalog.Responses;
 using MediatR;
 
-namespace Catalog.Handlers
+namespace Catalog.Mappers
 {
     public class GetAllTypesHandler : IRequestHandler<GetAllTypesQuery, IEnumerable<TypeResponse>>
     {
