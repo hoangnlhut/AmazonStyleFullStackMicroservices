@@ -17,7 +17,7 @@ namespace Catalog.Mappers
             };
         }
 
-        public static IEnumerable<ProductResponse> ToResponselist(this IEnumerable<Product> products)
+        public static IEnumerable<ProductResponse> ToResponseList(this IEnumerable<Product> products)
         {
             return products.Select(product => product.ToResponse()).ToList();
         }

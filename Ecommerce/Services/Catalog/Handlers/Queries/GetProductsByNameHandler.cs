@@ -4,7 +4,7 @@ using Catalog.Repositories;
 using Catalog.Responses;
 using MediatR;
 
-namespace Catalog.Handlers
+namespace Catalog.Handlers.Queries
 {
     public class GetProductsByNameHandler : IRequestHandler<GetProductsByNameQuery, IEnumerable<ProductResponse>>
     {
@@ -17,7 +17,7 @@ namespace Catalog.Handlers
         public async Task<IEnumerable<ProductResponse>> Handle(GetProductsByNameQuery request, CancellationToken cancellationToken)
         {
             var product = await _productRepository.GetProductsByNameAsync(request.name);
-            return product.ToResponselist();
+            return product.ToResponseList();
         }
     }
 }

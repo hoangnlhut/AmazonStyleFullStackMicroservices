@@ -5,7 +5,7 @@ using Catalog.Responses;
 using Catalog.Specifications;
 using MediatR;
 
-namespace Catalog.Handlers
+namespace Catalog.Handlers.Queries
 {
     public class GetAllProductsHandler : IRequestHandler<GetAllProductsQuery, Pagination<ProductResponse>>
     {
