@@ -2,9 +2,9 @@
 
 namespace Catalog.Commands
 {
-    public class UpdateProductCommand : IRequest<bool>
+    public record UpdateProductCommand : IRequest<bool>
     {
-        public string Id { get; set; }
+        public string Id { get; init; }
         public string Name { get; init; }
         public string Description { get; init; }
         public string Summary { get; init; }

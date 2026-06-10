@@ -6,7 +6,7 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace Catalog.Commands
 {
-    public class CreateProductCommand : IRequest<ProductResponse>
+    public record CreateProductCommand : IRequest<ProductResponse>
     {
         public string Name { get; init; }
         public string Description { get; init; }
