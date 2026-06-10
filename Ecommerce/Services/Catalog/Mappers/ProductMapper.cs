@@ -53,5 +53,21 @@ namespace Catalog.Mappers
                 Type = type
             };
         }
+
+        public static Product ToUpdateEntity(this UpdateProductCommand command, Product existing ,ProductBrand brand, ProductType type)
+        {
+            return new Product
+            {
+                Id = existing.Id,
+                Name = command.Name,
+                Price = command.Price,
+                Description = command.Description,
+                Summary = command.Summary,
+                ImageFile = command.ImageFile,
+                CreatedDate = existing.CreatedDate,
+                Brand = brand,
+                Type = type
+            };
+        }
     }
 }

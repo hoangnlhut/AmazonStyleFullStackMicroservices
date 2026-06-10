@@ -20,7 +20,7 @@ namespace Catalog.Handlers.Commands
             var getBrand = await _productRepository.GetBrandByIdAsync(request.BrandId);
             var getType = await _productRepository.GetTypeByIdAsync(request.TypeId);
 
-            if(getBrand == null || getType == null) throw new ApplicationException("invalid brand and type specified");
+            if(getBrand == null || getType == null) throw new KeyNotFoundException("invalid brand and type specified");
 
             var productEntity = request.ToEntity(getBrand, getType);
 

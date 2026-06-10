@@ -1,13 +1,10 @@
-﻿using Catalog.Entities;
-using Catalog.Responses;
-using MediatR;
-using MongoDB.Bson;
-using MongoDB.Bson.Serialization.Attributes;
+﻿using MediatR;
 
 namespace Catalog.Commands
 {
-    public class CreateProductCommand : IRequest<ProductResponse>
+    public class UpdateProductCommand : IRequest<bool>
     {
+        public string Id { get; set; }
         public string Name { get; init; }
         public string Description { get; init; }
         public string Summary { get; init; }
