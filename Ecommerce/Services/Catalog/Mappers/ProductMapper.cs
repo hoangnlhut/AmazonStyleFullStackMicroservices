@@ -1,4 +1,5 @@
-﻿using Catalog.Entities;
+﻿using Catalog.Commands;
+using Catalog.Entities;
 using Catalog.Responses;
 using Catalog.Specifications;
 
@@ -35,6 +36,21 @@ namespace Catalog.Mappers
                 CreatedDate = product.CreatedDate,
                 Brand = new BrandResponse { Id = product.Brand.Id, Name = product.Brand.Name },
                 Type = new TypeResponse { Id = product.Type.Id, Name = product.Type.Name }
+            };
+        }
+
+        public static Product ToEntity(this CreateProductCommand command, ProductBrand brand, ProductType type)
+        {
+            return new Product
+            {
+                Name = command.Name,
+                Price = command.Price,
+                Description = command.Description,
+                Summary = command.Summary,
+                ImageFile = command.ImageFile,
+                CreatedDate = DateTimeOffset.UtcNow,
+                Brand = brand,
+                Type = type
             };
         }
     }
