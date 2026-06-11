@@ -18,5 +18,19 @@ namespace Catalog.Mappers
                 Name = type.Name
             };
         }
+
+        public static IEnumerable<ProductType> ToDtos(this IEnumerable<TypeResponse> typeResponses)
+        {
+            return typeResponses.Select(response => response.ToDto()).ToList();
+        }
+
+        public static ProductType ToDto(this TypeResponse response)
+        {
+            return new ProductType
+            {
+                Id = response.Id,
+                Name = response.Name ?? string.Empty
+            };
+        }
     }
 }

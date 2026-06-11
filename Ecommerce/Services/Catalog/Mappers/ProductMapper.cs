@@ -1,4 +1,5 @@
 ﻿using Catalog.Commands;
+using Catalog.DTOs;
 using Catalog.Entities;
 using Catalog.Responses;
 using Catalog.Specifications;
@@ -68,6 +69,39 @@ namespace Catalog.Mappers
                 Brand = brand,
                 Type = type
             };
+        }
+
+        public static Pagination<ProductDto> ToPaginationDtos(this Pagination<ProductResponse> products)
+        {
+            return new Pagination<ProductDto>
+            {
+                Data = products.Data.Select(product => product.ToDto()).ToList(),
+                Count = products.Count,
+                PageSize = products.PageSize,
+                PageIndex = products.PageIndex
+            };
+        }
+
+        public static IEnumerable<ProductDto> ToDtos(this IEnumerable<ProductResponse> products)
+        {
+            return products.Select(product => product.ToDto()).ToList();
+        }
+
+        public static ProductDto ToDto(this ProductResponse product)
+        {
+            if(product == null) return null;    
+
+            return new ProductDto(
+                product.Id, 
+                product.Name, 
+                product.Description, 
+                product.Summary, 
+                product.ImageFile, 
+                new ProductBrandDto { Id = product.Brand.Id, Name = product.Brand.Name }, 
+                new ProductTypeDto { Id = product.Type.Id, Name = product.Type.Name }, 
+                product.Price, 
+                product.CreatedDate);
+            
         }
     }
 }
