@@ -20,14 +20,14 @@ namespace Catalog.Mappers
             };
         }
 
-        public static IEnumerable<ProductBrandDto> ToDtos(this IEnumerable<BrandResponse> brands)
+        public static IEnumerable<BrandDto> ToDtos(this IEnumerable<BrandResponse> brands)
         {
             return brands.Select(brand => brand.ToDto()).ToList();
         }
 
-        public static ProductBrandDto ToDto(this BrandResponse brand)
+        public static BrandDto ToDto(this BrandResponse brand)
         {
-            return new ProductBrandDto
+            return new BrandDto
             {
                 Id = brand.Id,
                 Name = brand.Name

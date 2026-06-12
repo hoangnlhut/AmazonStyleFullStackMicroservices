@@ -39,7 +39,7 @@ namespace Catalog.Controllers
             //return Ok(result.ToDto());
         }
 
-        [HttpGet("products-by-name/{productName}")]
+        [HttpGet("products/{productName}")]
         public async Task<ActionResult<IList<ProductDto>>> GetProductsByProductName(string productName)
         {
             var query = new GetProductsByNameQuery(productName);
@@ -53,12 +53,13 @@ namespace Catalog.Controllers
             return Ok(result.ToDtos());
         }
 
-        [HttpGet("products-by-brand/{brand}")]
+        [HttpGet("brands/{brand}/products")]
         public async Task<ActionResult<IList<ProductDto>>> GetProductsByBrand(string brand)
         {
             var query = new GetProductsByBrandQuery(brand);
             var result = await _mediator.Send(query);
-            return Ok(result.ToDtos());
+            return Ok(result);
+            //return Ok(result.ToDtos());
         }
 
         [HttpPost("products")]
@@ -102,21 +103,24 @@ namespace Catalog.Controllers
 
         #region Brands
         [HttpGet("brands")]
-        public async Task<ActionResult<IList<ProductBrandDto>>> GetAllBrands()
+        public async Task<ActionResult<IEnumerable<BrandDto>>> GetAllBrands()
         {
             var query = new GetAllBrandsQuery();
             var result = await _mediator.Send(query);
-            return Ok(result.ToDtos());
+            //return Ok(result.ToDtos());
+            return Ok(result);
         }
         #endregion
 
         #region Types
         [HttpGet("types")]
-        public async Task<ActionResult<IList<ProductTypeDto>>> GetAllTypes()
+        public async Task<ActionResult<IEnumerable<TypeDto>>> GetAllTypes()
         {
             var query = new GetAllTypesQuery();
             var result = await _mediator.Send(query);
-            return Ok(result.ToDtos());
+            //return Ok(result.ToDtos());
+            return Ok(result);
+
         }
         #endregion
     }

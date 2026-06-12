@@ -95,8 +95,8 @@ namespace Catalog.Mappers
                 product.Description,
                 product.Summary,
                 product.ImageFile,
-                new ProductBrandDto { Id = product.Brand.Id, Name = product.Brand.Name },
-                new ProductTypeDto { Id = product.Type.Id, Name = product.Type.Name },
+                new BrandDto { Id = product.Brand.Id, Name = product.Brand.Name },
+                new TypeDto { Id = product.Type.Id, Name = product.Type.Name },
                 product.Price,
                 product.CreatedDate);
 

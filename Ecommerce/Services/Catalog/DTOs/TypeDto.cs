@@ -1,6 +1,6 @@
 ﻿namespace Catalog.DTOs
 {
-    public record ProductTypeDto
+    public record TypeDto
     {
         public string? Id { get; set; }
         public string? Name { get; set; }

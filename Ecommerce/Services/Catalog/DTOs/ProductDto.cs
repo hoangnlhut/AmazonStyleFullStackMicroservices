@@ -6,8 +6,8 @@
         string Description,
         string Summary,
         string ImageFile,
-        ProductBrandDto Brand,
-        ProductTypeDto Type,
+        BrandDto Brand,
+        TypeDto Type,
         decimal Price,
         DateTimeOffset CreatedDate);
 }
