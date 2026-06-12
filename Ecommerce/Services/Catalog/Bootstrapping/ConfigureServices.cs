@@ -14,6 +14,7 @@ namespace Catalog.Bootstrapping
 
             //Add Swagger services
             builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
             builder.Services.AddOpenApi();
 
             //Register MediatR

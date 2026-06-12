@@ -30,7 +30,7 @@ namespace Catalog.Controllers
         }
 
 
-        [HttpGet("products/{id:string}")]
+        [HttpGet("products/{id}")]
         public async Task<ActionResult<ProductDto>> GetProductById(string id)
         {
             var query = new GetProductByIdQuery(id);
@@ -39,7 +39,7 @@ namespace Catalog.Controllers
             //return Ok(result.ToDto());
         }
 
-        [HttpGet("products/{productName}")]
+        [HttpGet("products-by-name/{productName}")]
         public async Task<ActionResult<IList<ProductDto>>> GetProductsByProductName(string productName)
         {
             var query = new GetProductsByNameQuery(productName);
