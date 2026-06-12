@@ -55,7 +55,7 @@ namespace Catalog.Mappers
             };
         }
 
-        public static Product ToUpdateEntity(this UpdateProductCommand command, Product existing ,ProductBrand brand, ProductType type)
+        public static Product ToUpdateEntity(this UpdateProductCommand command, Product existing, ProductBrand brand, ProductType type)
         {
             return new Product
             {
@@ -89,19 +89,32 @@ namespace Catalog.Mappers
 
         public static ProductDto ToDto(this ProductResponse product)
         {
-            if(product == null) return null;    
-
             return new ProductDto(
-                product.Id, 
-                product.Name, 
-                product.Description, 
-                product.Summary, 
-                product.ImageFile, 
-                new ProductBrandDto { Id = product.Brand.Id, Name = product.Brand.Name }, 
-                new ProductTypeDto { Id = product.Type.Id, Name = product.Type.Name }, 
-                product.Price, 
+                product.Id,
+                product.Name,
+                product.Description,
+                product.Summary,
+                product.ImageFile,
+                new ProductBrandDto { Id = product.Brand.Id, Name = product.Brand.Name },
+                new ProductTypeDto { Id = product.Type.Id, Name = product.Type.Name },
+                product.Price,
                 product.CreatedDate);
-            
+
+        }
+
+        public static UpdateProductCommand ToUpdateProductCommand(this UpdateProductDto updateProductDto, string id)
+        {
+            return new UpdateProductCommand()
+            {
+                Id = id,
+                Name = updateProductDto.Name,
+                Summary = updateProductDto.Summary,
+                Description = updateProductDto.Description,
+                ImageFile = updateProductDto.ImageFile,
+                BrandId = updateProductDto.BrandId,
+                TypeId = updateProductDto.TypeId,
+                Price = updateProductDto.Price
+            };
         }
     }
 }

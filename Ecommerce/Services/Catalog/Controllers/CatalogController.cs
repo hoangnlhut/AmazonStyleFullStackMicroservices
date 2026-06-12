@@ -4,6 +4,7 @@ using Catalog.Mappers;
 using Catalog.Specifications;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Catalog.Commands;
 
 namespace Catalog.Controllers
 {
@@ -18,6 +19,7 @@ namespace Catalog.Controllers
             _mediator = mediator;
         }
 
+        #region Products
         [HttpGet("products")]
         public async Task<ActionResult<IList<ProductDto>>> GetAllProducts([FromQuery] CatalogSpecParams catalogSpecParams)
         {
@@ -51,7 +53,6 @@ namespace Catalog.Controllers
             return Ok(result.ToDtos());
         }
 
-
         [HttpGet("products-by-brand/{brand}")]
         public async Task<ActionResult<IList<ProductDto>>> GetProductsByBrand(string brand)
         {
@@ -60,7 +61,46 @@ namespace Catalog.Controllers
             return Ok(result.ToDtos());
         }
 
+        [HttpPost("products")]
+        public async Task<ActionResult<ProductDto>> CreateProduct([FromBody] CreateProductCommand productCommand)
+        {
+            var result = await _mediator.Send(productCommand);
+            return Ok(result);
+        }
 
+        [HttpPut("products/{id}")]
+        public async Task<ActionResult<bool>> UpdateProduct(string id, [FromBody] UpdateProductDto productDto)
+        {
+            if (id == null || productDto == null) return BadRequest();
+
+            var updateCommand = productDto.ToUpdateProductCommand(id);
+
+            var result = await _mediator.Send(updateCommand);
+
+            if (!result)
+            {
+                return NotFound();
+            }
+
+            return NoContent();
+        }
+
+        [HttpDelete("products/{id}")]
+        public async Task<ActionResult<bool>> DeleteProduct(string id)
+        {
+            var command = new DeleteProductByIdCommand(id);
+            var result = await _mediator.Send(command);
+
+            if(!result)             {
+                return NotFound();
+            }
+
+            return NoContent();
+        }
+
+        #endregion
+
+        #region Brands
         [HttpGet("brands")]
         public async Task<ActionResult<IList<ProductBrandDto>>> GetAllBrands()
         {
@@ -68,7 +108,9 @@ namespace Catalog.Controllers
             var result = await _mediator.Send(query);
             return Ok(result.ToDtos());
         }
+        #endregion
 
+        #region Types
         [HttpGet("types")]
         public async Task<ActionResult<IList<ProductTypeDto>>> GetAllTypes()
         {
@@ -76,5 +118,6 @@ namespace Catalog.Controllers
             var result = await _mediator.Send(query);
             return Ok(result.ToDtos());
         }
+        #endregion
     }
 }

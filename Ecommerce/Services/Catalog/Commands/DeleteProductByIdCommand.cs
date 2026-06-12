@@ -2,8 +2,7 @@
 
 namespace Catalog.Commands
 {
-    public record DeleteProductByIdCommand : IRequest<bool>
+    public record DeleteProductByIdCommand(string Id) : IRequest<bool>
     {
-        public string Id { get; init; }
     }
 }
