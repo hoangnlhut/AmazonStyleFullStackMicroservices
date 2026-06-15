@@ -3,44 +3,84 @@
   "WorkspaceRootPath": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\mappers\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\mappers\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\handlers\\queries\\getproductbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\handlers\\queries\\getproductbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\data\\seeddata\\brands.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\data\\seeddata\\brands.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\queries\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\queries\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\data\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\data\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\data\\seeddata\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\data\\seeddata\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\handlers\\queries\\getallproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\handlers\\queries\\getallproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\bootstrapping\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\bootstrapping\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\dtos\\typedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\dtos\\typedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\specifications\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\specifications\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\handlers\\commands\\updateproducthanlder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\handlers\\commands\\updateproducthanlder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\dtos\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\dtos\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\queries\\getalltypesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\queries\\getalltypesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\mappers\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\mappers\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\dtos\\typedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\dtos\\typedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\queries\\getalltypesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\queries\\getalltypesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,20 +91,8 @@
       "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\commands\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\handlers\\commands\\updateproducthanlder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\handlers\\commands\\updateproducthanlder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\handlers\\commands\\deleteproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\handlers\\commands\\deleteproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,16 +127,8 @@
       "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\mappers\\typemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\queries\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\queries\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\specifications\\catalogspecparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\specifications\\catalogspecparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\specifications\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\specifications\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -117,12 +137,12 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 202,
           "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "UpdateProductDto.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\DTOs\\UpdateProductDto.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\DTOs\\UpdateProductDto.cs",
@@ -131,8 +151,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-12T03:32:15.698Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -140,20 +159,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BrandDto.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\DTOs\\BrandDto.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\DTOs\\BrandDto.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\DTOs\\BrandDto.cs",
-              "RelativeToolTip": "Services\\Catalog\\DTOs\\BrandDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GetProductByIdHandler.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Handlers\\Queries\\GetProductByIdHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Handlers\\Queries\\GetProductByIdHandler.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Handlers\\Queries\\GetProductByIdHandler.cs",
+              "RelativeToolTip": "Services\\Catalog\\Handlers\\Queries\\GetProductByIdHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T03:34:46.567Z",
+              "WhenOpened": "2026-06-15T03:10:30.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 5,
+              "Title": "GetAllProductsQuery.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Queries\\GetAllProductsQuery.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Queries\\GetAllProductsQuery.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Queries\\GetAllProductsQuery.cs",
+              "RelativeToolTip": "Services\\Catalog\\Queries\\GetAllProductsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T11:06:07.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CatalogController.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Controllers\\CatalogController.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Controllers\\CatalogController.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Controllers\\CatalogController.cs",
+              "RelativeToolTip": "Services\\Catalog\\Controllers\\CatalogController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA8wCYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:33:00.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConfigureServices.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Bootstrapping\\ConfigureServices.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Bootstrapping\\ConfigureServices.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Bootstrapping\\ConfigureServices.cs",
+              "RelativeToolTip": "Services\\Catalog\\Bootstrapping\\ConfigureServices.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACUAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T04:34:09.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\DTOs\\ProductDto.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\DTOs\\ProductDto.cs",
@@ -161,38 +219,35 @@
               "RelativeToolTip": "Services\\Catalog\\DTOs\\ProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T11:59:03.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T11:59:03.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConfigureServices.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Bootstrapping\\ConfigureServices.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Bootstrapping\\ConfigureServices.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Bootstrapping\\ConfigureServices.cs",
-              "RelativeToolTip": "Services\\Catalog\\Bootstrapping\\ConfigureServices.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBAAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Commands\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Commands\\CreateProductCommand.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Commands\\CreateProductCommand.cs",
+              "RelativeToolTip": "Services\\Catalog\\Commands\\CreateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T04:34:09.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CatalogController.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Controllers\\CatalogController.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Controllers\\CatalogController.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Controllers\\CatalogController.cs",
-              "RelativeToolTip": "Services\\Catalog\\Controllers\\CatalogController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAowCYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T07:33:00.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T09:40:32.422Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "BrandDto.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\DTOs\\BrandDto.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\DTOs\\BrandDto.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\DTOs\\BrandDto.cs",
+              "RelativeToolTip": "Services\\Catalog\\DTOs\\BrandDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T03:34:46.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "CreateProductDto.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\DTOs\\CreateProductDto.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\DTOs\\CreateProductDto.cs",
@@ -200,12 +255,11 @@
               "RelativeToolTip": "Services\\Catalog\\DTOs\\CreateProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T03:34:50.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T03:34:50.504Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "DeleteProductByIdCommand.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Commands\\DeleteProductByIdCommand.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Commands\\DeleteProductByIdCommand.cs",
@@ -213,24 +267,23 @@
               "RelativeToolTip": "Services\\Catalog\\Commands\\DeleteProductByIdCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T03:22:18.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T03:22:18.647Z"
             }
           ]
         },
         {
-          "DockedWidth": 200,
+          "DockedWidth": 198,
           "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Repositories\\ProductRepository.cs",
               "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "Services\\Catalog\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAMwGoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAnwCcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T08:01:29.187Z",
               "IsPinned": true,
@@ -238,21 +291,123 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "UpdateProductHanlder.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Handlers\\Commands\\UpdateProductHanlder.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Handlers\\Commands\\UpdateProductHanlder.cs",
               "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Handlers\\Commands\\UpdateProductHanlder.cs",
               "RelativeToolTip": "Services\\Catalog\\Handlers\\Commands\\UpdateProductHanlder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-12T03:25:22.419Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "brands.json",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Data\\SeedData\\brands.json",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Data\\SeedData\\brands.json",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Data\\SeedData\\brands.json",
+              "RelativeToolTip": "Services\\Catalog\\Data\\SeedData\\brands.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-15T03:02:43.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "products.json",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Data\\SeedData\\products.json",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Data\\SeedData\\products.json",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Data\\SeedData\\products.json",
+              "RelativeToolTip": "Services\\Catalog\\Data\\SeedData\\products.json",
+              "ViewState": "AgIAABcCAAAAAAAAAAAkwCwCAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-15T02:54:09.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductMapper.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Mappers\\ProductMapper.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Mappers\\ProductMapper.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Mappers\\ProductMapper.cs",
+              "RelativeToolTip": "Services\\Catalog\\Mappers\\ProductMapper.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAewBEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T11:56:42.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseSeeder.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Data\\DatabaseSeeder.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Data\\DatabaseSeeder.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Data\\DatabaseSeeder.cs",
+              "RelativeToolTip": "Services\\Catalog\\Data\\DatabaseSeeder.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAowDoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T02:55:52.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Specifications\\Pagination.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Specifications\\Pagination.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Specifications\\Pagination.cs",
+              "RelativeToolTip": "Services\\Catalog\\Specifications\\Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T11:05:15.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Services\\Catalog\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-12T08:02:42.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetAllProductsHandler.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Handlers\\Queries\\GetAllProductsHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Handlers\\Queries\\GetAllProductsHandler.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Handlers\\Queries\\GetAllProductsHandler.cs",
+              "RelativeToolTip": "Services\\Catalog\\Handlers\\Queries\\GetAllProductsHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAzwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T10:46:05.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Program.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Program.cs",
+              "RelativeToolTip": "Services\\Catalog\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwCMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T04:32:14.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\appsettings.json",
               "RelativeDocumentMoniker": "Services\\Catalog\\appsettings.json",
@@ -260,64 +415,11 @@
               "RelativeToolTip": "Services\\Catalog\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-12T09:26:58.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T09:26:58.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Properties\\launchSettings.json",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Services\\Catalog\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-12T08:02:42.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Program.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Program.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Program.cs",
-              "RelativeToolTip": "Services\\Catalog\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T04:32:14.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Product.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Entities\\Product.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Entities\\Product.cs",
-              "RelativeToolTip": "Services\\Catalog\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T04:30:14.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductMapper.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Mappers\\ProductMapper.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Mappers\\ProductMapper.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Mappers\\ProductMapper.cs",
-              "RelativeToolTip": "Services\\Catalog\\Mappers\\ProductMapper.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAwHcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T11:56:42.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "GetAllTypesQuery.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Queries\\GetAllTypesQuery.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Queries\\GetAllTypesQuery.cs",
@@ -325,12 +427,11 @@
               "RelativeToolTip": "Services\\Catalog\\Queries\\GetAllTypesQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T11:50:20.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T11:50:20.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "TypeDto.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\DTOs\\TypeDto.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\DTOs\\TypeDto.cs",
@@ -338,12 +439,11 @@
               "RelativeToolTip": "Services\\Catalog\\DTOs\\TypeDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T03:34:45.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T03:34:45.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "UpdateProductCommand.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Commands\\UpdateProductCommand.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Commands\\UpdateProductCommand.cs",
@@ -351,12 +451,11 @@
               "RelativeToolTip": "Services\\Catalog\\Commands\\UpdateProductCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T03:41:03.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T03:41:03.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "DeleteProductHandler.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Handlers\\Commands\\DeleteProductHandler.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Handlers\\Commands\\DeleteProductHandler.cs",
@@ -364,12 +463,11 @@
               "RelativeToolTip": "Services\\Catalog\\Handlers\\Commands\\DeleteProductHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T03:23:12.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T03:23:12.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "GetAllBrandsHandler.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Handlers\\Queries\\GetAllBrandsHandler.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Handlers\\Queries\\GetAllBrandsHandler.cs",
@@ -377,12 +475,11 @@
               "RelativeToolTip": "Services\\Catalog\\Handlers\\Queries\\GetAllBrandsHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T09:45:44.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T09:45:44.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "GetProductsByBrandHandler.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Handlers\\Queries\\GetProductsByBrandHandler.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Handlers\\Queries\\GetProductsByBrandHandler.cs",
@@ -390,12 +487,11 @@
               "RelativeToolTip": "Services\\Catalog\\Handlers\\Queries\\GetProductsByBrandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T09:43:05.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T09:43:05.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "GetProductByIdQuery.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Queries\\GetProductByIdQuery.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Queries\\GetProductByIdQuery.cs",
@@ -403,12 +499,11 @@
               "RelativeToolTip": "Services\\Catalog\\Queries\\GetProductByIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T12:07:34.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T12:07:34.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "GetProductsByBrandQuery.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Queries\\GetProductsByBrandQuery.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Queries\\GetProductsByBrandQuery.cs",
@@ -416,12 +511,11 @@
               "RelativeToolTip": "Services\\Catalog\\Queries\\GetProductsByBrandQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T12:09:38.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T12:09:38.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "BrandMapper.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Mappers\\BrandMapper.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Mappers\\BrandMapper.cs",
@@ -429,12 +523,11 @@
               "RelativeToolTip": "Services\\Catalog\\Mappers\\BrandMapper.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T11:55:20.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T11:55:20.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "TypeMapper.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Mappers\\TypeMapper.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Mappers\\TypeMapper.cs",
@@ -442,38 +535,11 @@
               "RelativeToolTip": "Services\\Catalog\\Mappers\\TypeMapper.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T11:52:00.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T11:52:00.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Pagination.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Specifications\\Pagination.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Specifications\\Pagination.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Specifications\\Pagination.cs",
-              "RelativeToolTip": "Services\\Catalog\\Specifications\\Pagination.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T11:05:15.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "GetAllProductsQuery.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Queries\\GetAllProductsQuery.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Queries\\GetAllProductsQuery.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Queries\\GetAllProductsQuery.cs",
-              "RelativeToolTip": "Services\\Catalog\\Queries\\GetAllProductsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T11:06:07.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "CatalogSpecParams.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Specifications\\CatalogSpecParams.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Specifications\\CatalogSpecParams.cs",
@@ -481,8 +547,7 @@
               "RelativeToolTip": "Services\\Catalog\\Specifications\\CatalogSpecParams.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T11:04:54.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T11:04:54.567Z"
             }
           ]
         }

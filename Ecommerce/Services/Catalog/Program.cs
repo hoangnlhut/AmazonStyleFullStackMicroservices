@@ -26,7 +26,6 @@ using (var scope = app.Services.CreateScope())
     await seeder.SeedAsync();
 }
 
-
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

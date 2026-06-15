@@ -25,7 +25,6 @@ namespace Catalog.Controllers
         {
             var query = new GetAllProductsQuery(catalogSpecParams);
             var result = await _mediator.Send(query);
-            //return Ok(result.ToPaginationDtos());
             return Ok(result);
         }
 
@@ -35,8 +34,13 @@ namespace Catalog.Controllers
         {
             var query = new GetProductByIdQuery(id);
             var result = await _mediator.Send(query);
+
+            if (result == null)
+            {
+                return NotFound();
+            }
+
             return Ok(result);
-            //return Ok(result.ToDto());
         }
 
         [HttpGet("products-by-name/{productName}")]
@@ -45,7 +49,7 @@ namespace Catalog.Controllers
             var query = new GetProductsByNameQuery(productName);
             var result = await _mediator.Send(query);
 
-            if (result == null || result.Any())
+            if (result == null || !result.Any())
             {
                 return NotFound();
             }
@@ -59,7 +63,6 @@ namespace Catalog.Controllers
             var query = new GetProductsByBrandQuery(brand);
             var result = await _mediator.Send(query);
             return Ok(result);
-            //return Ok(result.ToDtos());
         }
 
         [HttpPost("products")]

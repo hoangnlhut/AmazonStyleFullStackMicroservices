@@ -26,6 +26,7 @@ namespace Catalog.Mappers
 
         public static ProductResponse ToResponse(this Product product)
         {
+            if (product == null) return null;
             return new ProductResponse
             {
                 Id = product.Id,
@@ -71,16 +72,16 @@ namespace Catalog.Mappers
             };
         }
 
-        public static Pagination<ProductDto> ToPaginationDtos(this Pagination<ProductResponse> products)
-        {
-            return new Pagination<ProductDto>
-            {
-                Data = products.Data.Select(product => product.ToDto()).ToList(),
-                Count = products.Count,
-                PageSize = products.PageSize,
-                PageIndex = products.PageIndex
-            };
-        }
+        //public static Pagination<ProductDto> ToPaginationDtos(this Pagination<ProductResponse> products)
+        //{
+        //    return new Pagination<ProductDto>
+        //    {
+        //        Data = products.Data.Select(product => product.ToDto()).ToList(),
+        //        Count = products.Count,
+        //        PageSize = products.PageSize,
+        //        PageIndex = products.PageIndex
+        //    };
+        //}
 
         public static IEnumerable<ProductDto> ToDtos(this IEnumerable<ProductResponse> products)
         {
