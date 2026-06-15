@@ -12,6 +12,18 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Data\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Handlers\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="Models\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Responses\" />
+    <Folder Include="Specifications\" />
+    <Folder Include="Commands\" />
+    <Folder Include="Bootstrapping\" />
   </ItemGroup>
 
 </Project>
