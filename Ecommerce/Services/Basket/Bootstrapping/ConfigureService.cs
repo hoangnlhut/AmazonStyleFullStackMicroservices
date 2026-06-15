@@ -1,11 +1,9 @@
-﻿using Catalog.Data;
-using Catalog.Models;
-using Catalog.Repositories;
+﻿using Basket.Repositories;
 using System.Reflection;
 
-namespace Catalog.Bootstrapping
+namespace Basket.Bootstrapping
 {
-    public static class ConfigureServices
+    public static class ConfigureService
     {
         public static WebApplicationBuilder AddServices(this WebApplicationBuilder builder)
         {
@@ -20,21 +18,25 @@ namespace Catalog.Bootstrapping
             var assemblies = new Assembly[]
             {
                 Assembly.GetExecutingAssembly()
-                //Assembly.GetAssembly(typeof(GetAllBrandsHandler))
             };
             builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
 
 
-            // register database settings and seeder
-            builder.Services.Configure<CatalogDatabaseSettings>(
-                builder.Configuration.GetSection("DatabaseSettings"));
+            //Configure connection to your Redis instance
+            builder.Services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = builder.Configuration.GetConnectionString("Redis") ?? "localhost:6379";
+                options.InstanceName = "Basket_";
+            });
 
-            builder.Services.AddSingleton<DatabaseSeeder>();
+            // register database settings and seeder
+            //builder.Services.Configure<CatalogDatabaseSettings>(
+            //    builder.Configuration.GetSection("DatabaseSettings"));
+
+            //builder.Services.AddSingleton<DatabaseSeeder>();
 
             // custom services
-            builder.Services.AddScoped<IBrandRepository, BrandRepository>();
-            builder.Services.AddScoped<ITypeRepository, TypeRepository>();
-            builder.Services.AddScoped<IProductRepository, ProductRepository>();
+            builder.Services.AddScoped<IBasketRepository, BasketRepository>();
 
             return builder;
         }

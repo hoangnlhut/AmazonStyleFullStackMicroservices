@@ -25,7 +25,6 @@
     <Folder Include="Responses\" />
     <Folder Include="Specifications\" />
     <Folder Include="Commands\" />
-    <Folder Include="Bootstrapping\" />
   </ItemGroup>
 
 </Project>
