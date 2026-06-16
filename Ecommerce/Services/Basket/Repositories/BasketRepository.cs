@@ -28,7 +28,7 @@ namespace Basket.Repositories
             return JsonConvert.DeserializeObject<ShoppingCart>(cachedData);
         }
 
-        public async Task<ShoppingCart> UpdateBasket(ShoppingCart basket)
+        public async Task<ShoppingCart> UpsertBasket(ShoppingCart basket)
         {
             await _redisCache.SetStringAsync(basket.UserName, JsonConvert.SerializeObject(basket));
 
