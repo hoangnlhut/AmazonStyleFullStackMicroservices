@@ -1,6 +1,6 @@
 ﻿namespace Basket.DTOs
 {
-    public record CreateShoppingCartItemDto
+    public record CreateBasketItemDto
     {
         public string ProductId { get; set; }
         public string ProductName { get; set; }

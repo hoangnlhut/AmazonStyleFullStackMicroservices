@@ -7,13 +7,13 @@ namespace Basket.Mappers
 {
     public static class BasketMappers
     {
-        public static ShoppingCartResponse ToResponse(this ShoppingCart shoppingCart)
+        public static BasketResponse ToResponse(this ShoppingCart shoppingCart)
         {
-            return new ShoppingCartResponse(shoppingCart.UserName, shoppingCart.Items.Select(item => item.ItemToResponse()).ToList());
+            return new BasketResponse(shoppingCart.UserName, shoppingCart.Items.Select(item => item.ItemToResponse()).ToList());
         }
-        public static ShoppingCartItemResponse ItemToResponse(this ShoppingCartItem shoppingCartItem)
+        public static BasketItemResponse ItemToResponse(this ShoppingCartItem shoppingCartItem)
         {
-            return new ShoppingCartItemResponse
+            return new BasketItemResponse
             {
                 ProductId = shoppingCartItem.ProductId,
                 ProductName = shoppingCartItem.ProductName,

@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace Basket.Handlers.Command
 {
-    public class CreateBasketHandler : IRequestHandler<CreateBasketCommand, ShoppingCartResponse>
+    public class CreateBasketHandler : IRequestHandler<CreateBasketCommand, BasketResponse>
     {
         private readonly IBasketRepository _basketRepository;
 
@@ -16,7 +16,7 @@ namespace Basket.Handlers.Command
         {
             _basketRepository = basketRepository;
         }
-        public async Task<ShoppingCartResponse> Handle(CreateBasketCommand request, CancellationToken cancellationToken)
+        public async Task<BasketResponse> Handle(CreateBasketCommand request, CancellationToken cancellationToken)
         {
             var entity = request.CommandToEntity();
 
@@ -24,7 +24,7 @@ namespace Basket.Handlers.Command
 
             if (shoppingCart is null)
             {
-                return new ShoppingCartResponse(request.UserName);
+                return new BasketResponse(request.UserName);
             }
 
             return shoppingCart.ToResponse();

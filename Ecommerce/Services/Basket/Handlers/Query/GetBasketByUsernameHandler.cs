@@ -7,19 +7,19 @@ using MediatR;
 
 namespace Basket.Handlers.Query
 {
-    public class GetBasketByUsernameHandler : IRequestHandler<GetBasketByUsernameQuery, ShoppingCartResponse>
+    public class GetBasketByUsernameHandler : IRequestHandler<GetBasketByUsernameQuery, BasketResponse>
     {
         private readonly IBasketRepository _repository;
         public GetBasketByUsernameHandler(IBasketRepository repository)
         {
             _repository = repository;
         }
-        public async Task<ShoppingCartResponse> Handle(GetBasketByUsernameQuery request, CancellationToken cancellationToken)
+        public async Task<BasketResponse> Handle(GetBasketByUsernameQuery request, CancellationToken cancellationToken)
         {
             var shoppingCart = await _repository.GetBasket(request.UserName);
             if (shoppingCart == null) 
             {
-                return new ShoppingCartResponse(request.UserName);
+                return new BasketResponse(request.UserName);
             }
 
             return shoppingCart.ToResponse();

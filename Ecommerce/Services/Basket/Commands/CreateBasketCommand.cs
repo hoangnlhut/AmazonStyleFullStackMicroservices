@@ -4,7 +4,7 @@ using MediatR;
 
 namespace Basket.Commands
 {
-    public record CreateBasketCommand(string UserName, List<CreateShoppingCartItemDto> Items) : IRequest<ShoppingCartResponse>
+    public record CreateBasketCommand(string UserName, List<CreateBasketItemDto> Items) : IRequest<BasketResponse>
     {
     }
 }

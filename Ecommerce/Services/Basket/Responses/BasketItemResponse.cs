@@ -1,6 +1,6 @@
 ﻿namespace Basket.Responses
 {
-    public record ShoppingCartItemResponse
+    public record BasketItemResponse
     {
         public string ProductId { get; init; }
         public string ProductName { get; init; }
