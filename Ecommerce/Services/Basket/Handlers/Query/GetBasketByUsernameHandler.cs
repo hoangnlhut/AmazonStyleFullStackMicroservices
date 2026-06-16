@@ -5,7 +5,7 @@ using Basket.Repositories;
 using Basket.Responses;
 using MediatR;
 
-namespace Basket.Handlers
+namespace Basket.Handlers.Query
 {
     public class GetBasketByUsernameHandler : IRequestHandler<GetBasketByUsernameQuery, ShoppingCartResponse>
     {
