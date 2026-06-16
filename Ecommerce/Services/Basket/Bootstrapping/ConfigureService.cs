@@ -8,11 +8,11 @@ namespace Basket.Bootstrapping
         public static WebApplicationBuilder AddServices(this WebApplicationBuilder builder)
         {
             builder.Services.AddControllers();
+            builder.Services.AddOpenApi();
 
             //Add Swagger services
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddOpenApi();
 
             //Register MediatR
             var assemblies = new Assembly[]
@@ -25,15 +25,9 @@ namespace Basket.Bootstrapping
             //Configure connection to your Redis instance
             builder.Services.AddStackExchangeRedisCache(options =>
             {
-                options.Configuration = builder.Configuration.GetConnectionString("Redis") ?? "localhost:6379";
+                options.Configuration = builder.Configuration.GetValue<string>("CacheSettings:ConnectionString");
                 options.InstanceName = "Basket_";
             });
-
-            // register database settings and seeder
-            //builder.Services.Configure<CatalogDatabaseSettings>(
-            //    builder.Configuration.GetSection("DatabaseSettings"));
-
-            //builder.Services.AddSingleton<DatabaseSeeder>();
 
             // custom services
             builder.Services.AddScoped<IBasketRepository, BasketRepository>();
