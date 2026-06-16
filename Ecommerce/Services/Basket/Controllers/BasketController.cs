@@ -1,4 +1,5 @@
-﻿using Basket.DTOs;
+﻿using Basket.Commands;
+using Basket.DTOs;
 using Basket.Queries;
 using Basket.Responses;
 using MediatR;
@@ -25,6 +26,21 @@ namespace Basket.Controllers
             var query = new GetBasketByUsernameQuery(userName);
             var result = await _mediator.Send(query);
             return Ok(result);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<BasketDto>> CreateOrUpdateBasket([FromBody] CreateBasketCommand createCommand)
+        {
+            var result = await _mediator.Send(createCommand);
+            return Ok(result);
+        }
+
+        [HttpDelete("{userName}")]
+        public async Task<ActionResult> DeleteBasketByUserName(string userName)
+        {
+            var command = new DeleteBasketByUserNameCommand(userName);
+            await _mediator.Send(command);
+            return Ok();
         }
     }
 }
