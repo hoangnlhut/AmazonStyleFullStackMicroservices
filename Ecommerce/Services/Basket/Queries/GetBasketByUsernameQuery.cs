@@ -1,9 +1,9 @@
-﻿using Basket.Entities;
+﻿using Basket.Responses;
 using MediatR;
 
 namespace Basket.Queries
 {
-    public record GetBasketByUsernameQuery(string UserName) : IRequest<ShoppingCart>
+    public record GetBasketByUsernameQuery(string UserName) : IRequest<ShoppingCartResponse>
     {
     }
 }
