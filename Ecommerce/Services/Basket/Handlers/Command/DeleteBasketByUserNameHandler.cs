@@ -16,6 +16,5 @@ namespace Basket.Handlers.Command
             await _repository.DeleteBasket(request.userName);
             return Unit.Value;
         }
-    {
     }
 }

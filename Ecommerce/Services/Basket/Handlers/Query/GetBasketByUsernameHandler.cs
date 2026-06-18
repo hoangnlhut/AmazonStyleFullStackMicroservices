@@ -24,6 +24,5 @@ namespace Basket.Handlers.Query
 
             return shoppingCart.ToResponse();
         }
-    {
     }
 }

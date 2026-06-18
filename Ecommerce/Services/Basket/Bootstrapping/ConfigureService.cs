@@ -1,5 +1,8 @@
-﻿using Basket.Repositories;
+﻿using Basket.Commands;
+using Basket.Handlers.Command;
+using Basket.Repositories;
 using System.Reflection;
+using Microsoft.AspNetCore.OpenApi;
 
 namespace Basket.Bootstrapping
 {
@@ -17,16 +20,20 @@ namespace Basket.Bootstrapping
             //Register MediatR
             var assemblies = new Assembly[]
             {
-                Assembly.GetExecutingAssembly()
+                Assembly.GetExecutingAssembly(),
+                typeof(CreateBasketHandler).Assembly
             };
             builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
 
 
+            var configCache = builder.Configuration.GetValue<string>("CacheSettings:ConnectionString");
+
             //Configure connection to your Redis instance
-            builder.Services.AddStackExchangeRedisCache(options =>
+            builder.Services.AddStackExchangeRedisCache(
+                options =>
             {
-                options.Configuration = builder.Configuration.GetValue<string>("CacheSettings:ConnectionString");
-                options.InstanceName = "Basket_";
+                options.Configuration = configCache;
+                //options.InstanceName = "Basket_";
             });
 
             // custom services

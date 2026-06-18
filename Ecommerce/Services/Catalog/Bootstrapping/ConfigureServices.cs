@@ -1,4 +1,5 @@
 ﻿using Catalog.Data;
+using Catalog.Handlers.Queries;
 using Catalog.Models;
 using Catalog.Repositories;
 using System.Reflection;
@@ -19,8 +20,8 @@ namespace Catalog.Bootstrapping
             //Register MediatR
             var assemblies = new Assembly[]
             {
-                Assembly.GetExecutingAssembly()
-                //Assembly.GetAssembly(typeof(GetAllBrandsHandler))
+                Assembly.GetExecutingAssembly(),
+                Assembly.GetAssembly(typeof(GetAllBrandsHandler))
             };
             builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
 

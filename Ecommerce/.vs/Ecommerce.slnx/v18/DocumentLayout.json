@@ -3,64 +3,84 @@
   "WorkspaceRootPath": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\handlers\\command\\deletebasketbyusernamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\handlers\\command\\deletebasketbyusernamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\commands\\deletebasketbyusernamecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\commands\\deletebasketbyusernamecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\responses\\shoppingcartitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\responses\\shoppingcartitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\handlers\\command\\deletebasketbyusernamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\handlers\\command\\deletebasketbyusernamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\handlers\\query\\getbasketbyusernamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\handlers\\query\\getbasketbyusernamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\responses\\basketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\responses\\basketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\queries\\getbasketbyusernamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\queries\\getbasketbyusernamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\handlers\\command\\createbaskethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\handlers\\command\\createbaskethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\mappers\\basketmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\mappers\\basketmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\responses\\shoppingcartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\responses\\shoppingcartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\entities\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\entities\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\commands\\createbasketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\commands\\createbasketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\entities\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\entities\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\commands\\updatebasketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\commands\\updatebasketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\entities\\basketcheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\entities\\basketcheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\entities\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\entities\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\bootstrapping\\configureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\bootstrapping\\configureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\bootstrapping\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\bootstrapping\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\handlers\\query\\getbasketbyusernamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\handlers\\query\\getbasketbyusernamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|solutionrelative:services\\catalog\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\commands\\deletebasketbyusernamecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\commands\\deletebasketbyusernamecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\dtos\\createbasketitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\dtos\\createbasketitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\dtos\\basketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\dtos\\basketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\dtos\\basketitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\dtos\\basketitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\responses\\basketitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\responses\\basketitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\basket\\queries\\getbasketbyusernamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5A55A9-6CFC-4600-9A16-A96A4D04F181}|Services\\Basket\\Basket.csproj|solutionrelative:services\\basket\\queries\\getbasketbyusernamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,22 +89,35 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 166,
+          "DockedWidth": 170,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "BasketRepository.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Repositories\\BasketRepository.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Repositories\\BasketRepository.cs",
               "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Repositories\\BasketRepository.cs",
               "RelativeToolTip": "Services\\Basket\\Repositories\\BasketRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T08:28:00.936Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CatalogController.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Controllers\\CatalogController.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Controllers\\CatalogController.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Controllers\\CatalogController.cs",
+              "RelativeToolTip": "Services\\Catalog\\Controllers\\CatalogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T09:12:22.778Z",
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -92,20 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BasketCheckout.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Entities\\BasketCheckout.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Entities\\BasketCheckout.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Entities\\BasketCheckout.cs",
-              "RelativeToolTip": "Services\\Basket\\Entities\\BasketCheckout.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T08:10:44.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "ShoppingCart.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Entities\\ShoppingCart.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Entities\\ShoppingCart.cs",
@@ -113,70 +133,212 @@
               "RelativeToolTip": "Services\\Basket\\Entities\\ShoppingCart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T08:14:09.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-15T08:14:09.935Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Program.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Program.cs",
+              "RelativeToolTip": "Services\\Basket\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T15:15:35.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BasketItemResponse.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Responses\\BasketItemResponse.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Responses\\BasketItemResponse.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Responses\\BasketItemResponse.cs",
+              "RelativeToolTip": "Services\\Basket\\Responses\\BasketItemResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T02:40:46.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ShoppingCartItem.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Entities\\ShoppingCartItem.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Entities\\ShoppingCartItem.cs",
               "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Entities\\ShoppingCartItem.cs",
               "RelativeToolTip": "Services\\Basket\\Entities\\ShoppingCartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T08:15:53.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShoppingCartItemResponse.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Responses\\ShoppingCartItemResponse.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Responses\\ShoppingCartItemResponse.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Responses\\ShoppingCartItemResponse.cs",
-              "RelativeToolTip": "Services\\Basket\\Responses\\ShoppingCartItemResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T02:40:46.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-15T08:15:53.247Z"
             }
           ]
         },
         {
-          "DockedWidth": 172,
+          "DockedWidth": 168,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Controllers\\BasketController.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "Services\\Basket\\Controllers\\BasketController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T09:11:49.263Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateBasketHandler.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Handlers\\Command\\CreateBasketHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Handlers\\Command\\CreateBasketHandler.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Handlers\\Command\\CreateBasketHandler.cs",
+              "RelativeToolTip": "Services\\Basket\\Handlers\\Command\\CreateBasketHandler.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAArwBIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T08:36:19.084Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConfigureService.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Bootstrapping\\ConfigureService.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Bootstrapping\\ConfigureService.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Bootstrapping\\ConfigureService.cs",
+              "RelativeToolTip": "Services\\Basket\\Bootstrapping\\ConfigureService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T08:30:50.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetBasketByUsernameHandler.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Handlers\\Query\\GetBasketByUsernameHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Handlers\\Query\\GetBasketByUsernameHandler.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Handlers\\Query\\GetBasketByUsernameHandler.cs",
+              "RelativeToolTip": "Services\\Basket\\Handlers\\Query\\GetBasketByUsernameHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T15:15:54.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DeleteBasketByUserNameHandler.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Handlers\\Command\\DeleteBasketByUserNameHandler.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Handlers\\Command\\DeleteBasketByUserNameHandler.cs",
               "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Handlers\\Command\\DeleteBasketByUserNameHandler.cs",
               "RelativeToolTip": "Services\\Basket\\Handlers\\Command\\DeleteBasketByUserNameHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T04:52:35.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T04:52:35.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Services\\Catalog\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-16T15:36:48.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Basket\\appsettings.json",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\appsettings.json",
+              "RelativeToolTip": "Services\\Basket\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-16T15:23:17.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "DeleteBasketByUserNameCommand.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Commands\\DeleteBasketByUserNameCommand.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Commands\\DeleteBasketByUserNameCommand.cs",
               "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Commands\\DeleteBasketByUserNameCommand.cs",
               "RelativeToolTip": "Services\\Basket\\Commands\\DeleteBasketByUserNameCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T04:49:19.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T04:49:19.471Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "CreateBasketCommand.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Commands\\CreateBasketCommand.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Commands\\CreateBasketCommand.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Commands\\CreateBasketCommand.cs",
+              "RelativeToolTip": "Services\\Basket\\Commands\\CreateBasketCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T14:17:44.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateBasketItemDto.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\DTOs\\CreateBasketItemDto.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\DTOs\\CreateBasketItemDto.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\DTOs\\CreateBasketItemDto.cs",
+              "RelativeToolTip": "Services\\Basket\\DTOs\\CreateBasketItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T08:00:14.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BasketDto.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\DTOs\\BasketDto.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\DTOs\\BasketDto.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\DTOs\\BasketDto.cs",
+              "RelativeToolTip": "Services\\Basket\\DTOs\\BasketDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T09:23:14.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BasketItemDto.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\DTOs\\BasketItemDto.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\DTOs\\BasketItemDto.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\DTOs\\BasketItemDto.cs",
+              "RelativeToolTip": "Services\\Basket\\DTOs\\BasketItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:15:57.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BasketResponse.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Responses\\BasketResponse.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Responses\\BasketResponse.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Responses\\BasketResponse.cs",
+              "RelativeToolTip": "Services\\Basket\\Responses\\BasketResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T14:28:23.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "GetBasketByUsernameQuery.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Queries\\GetBasketByUsernameQuery.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Queries\\GetBasketByUsernameQuery.cs",
@@ -184,99 +346,7 @@
               "RelativeToolTip": "Services\\Basket\\Queries\\GetBasketByUsernameQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T04:45:23.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BasketMappers.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Mappers\\BasketMappers.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Mappers\\BasketMappers.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Mappers\\BasketMappers.cs",
-              "RelativeToolTip": "Services\\Basket\\Mappers\\BasketMappers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T02:39:27.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetBasketByUsernameHandler.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Handlers\\Query\\GetBasketByUsernameHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Handlers\\Query\\GetBasketByUsernameHandler.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Handlers\\Query\\GetBasketByUsernameHandler.cs*",
-              "RelativeToolTip": "Services\\Basket\\Handlers\\Query\\GetBasketByUsernameHandler.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T15:15:54.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ShoppingCartResponse.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Responses\\ShoppingCartResponse.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Responses\\ShoppingCartResponse.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Responses\\ShoppingCartResponse.cs",
-              "RelativeToolTip": "Services\\Basket\\Responses\\ShoppingCartResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T14:28:23.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreateProductCommand.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Commands\\CreateProductCommand.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Commands\\CreateProductCommand.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Commands\\CreateProductCommand.cs",
-              "RelativeToolTip": "Services\\Catalog\\Commands\\CreateProductCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T14:19:56.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UpdateBasketCommand.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Commands\\UpdateBasketCommand.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Commands\\UpdateBasketCommand.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Commands\\UpdateBasketCommand.cs",
-              "RelativeToolTip": "Services\\Basket\\Commands\\UpdateBasketCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T14:17:44.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ConfigureServices.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Bootstrapping\\ConfigureServices.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Bootstrapping\\ConfigureServices.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Bootstrapping\\ConfigureServices.cs",
-              "RelativeToolTip": "Services\\Catalog\\Bootstrapping\\ConfigureServices.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAxwCcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T08:31:06.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ConfigureService.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Bootstrapping\\ConfigureService.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Bootstrapping\\ConfigureService.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Basket\\Bootstrapping\\ConfigureService.cs",
-              "RelativeToolTip": "Services\\Basket\\Bootstrapping\\ConfigureService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T08:30:50.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T04:45:23.086Z"
             }
           ]
         }
