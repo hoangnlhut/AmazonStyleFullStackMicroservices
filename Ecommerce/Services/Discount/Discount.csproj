@@ -23,7 +23,6 @@
     <Folder Include="Handlers\" />
     <Folder Include="DTOs\" />
     <Folder Include="Mappers\" />
-    <Folder Include="Repositories\" />
     <Folder Include="Queries\" />
   </ItemGroup>
 
