@@ -1,5 +1,7 @@
 <Solution>
-  <Folder Name="/Services/" />
+  <Folder Name="/Services/">
+    <Project Path="Services/Discount/Discount.csproj" Id="6e858ff4-3893-4603-815c-516a908d1ff0" />
+  </Folder>
   <Folder Name="/Services/Basket/">
     <Project Path="Services/Basket/Basket.csproj" Id="bb5a55a9-6cfc-4600-9a16-a96a4d04f181" />
   </Folder>
