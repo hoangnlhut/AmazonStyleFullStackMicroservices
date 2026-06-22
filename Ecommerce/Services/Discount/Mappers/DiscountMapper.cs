@@ -1,5 +1,6 @@
 ﻿using Discount.DTOs;
 using Discount.Entities;
+using static Google.Rpc.Context.AttributeContext.Types;
 
 namespace Discount.Mappers
 {
@@ -10,9 +11,15 @@ namespace Discount.Mappers
             return new CouponDto(coupon.Id, coupon.ProductName, coupon.Description, coupon.Amount);
         }
 
-        //public static Coupon ToEntity(this CouponDto couponDto)
-        //{
-        //    return new Coupon(couponDto.Id, couponDto.ProductName, couponDto.Description, couponDto.Amount);
-        //}
+        public static Coupon ToEntity(this CouponInput couponInput)
+        {
+            return new Coupon
+            {
+                Id = couponInput.Id,
+                ProductName = couponInput.ProductName,
+                Description = couponInput.Description,
+                Amount = couponInput.Amount
+            };
+        }
     }
 }
