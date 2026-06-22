@@ -21,9 +21,7 @@
     <Folder Include="Controllers\" />
     <Folder Include="Commands\" />
     <Folder Include="Handlers\" />
-    <Folder Include="DTOs\" />
     <Folder Include="Mappers\" />
-    <Folder Include="Queries\" />
   </ItemGroup>
 
 </Project>

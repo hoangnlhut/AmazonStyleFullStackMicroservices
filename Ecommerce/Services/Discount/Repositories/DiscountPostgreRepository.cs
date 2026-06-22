@@ -36,6 +36,7 @@ namespace Discount.Repositories
             return affected > 0;
         }
 
+        //not implement yet
         public async Task<Coupon> GetCouponById(int id)
         {
             await using var connection = new NpgsqlConnection(_dbConnection.ConnectionString);
