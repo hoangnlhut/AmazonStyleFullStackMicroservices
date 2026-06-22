@@ -4,7 +4,7 @@ using static Google.Rpc.Context.AttributeContext.Types;
 
 namespace Discount.Mappers
 {
-    public static class DiscountMapper
+    public static class CouponMapper
     {
         public static CouponDto ToDto(this Coupon coupon)
         {

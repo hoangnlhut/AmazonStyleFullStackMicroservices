@@ -1,4 +1,10 @@
 ﻿namespace Discount.DTOs
 {
-    public record CouponInput(string ProductName, string Description, int Amount, int Id = 0);
+    public class CouponInput
+    {
+        public int Id { get; set; }
+        public string ProductName { get; set; }
+        public string Description { get; set; }
+        public int Amount { get; set; }
+    }
 }
