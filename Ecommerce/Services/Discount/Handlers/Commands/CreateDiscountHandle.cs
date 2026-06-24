@@ -1,4 +1,5 @@
 ﻿using Discount.Commands;
+using Discount.Extensions;
 using Discount.Mappers;
 using Discount.Repositories;
 using MediatR;
@@ -15,6 +16,22 @@ namespace Discount.Handlers.Commands
 
         public async Task<bool> Handle(CreateDiscountCommand request, CancellationToken cancellationToken)
         {
+            var validationErrors = new Dictionary<string, string>();
+
+            //input validation
+            if (string.IsNullOrWhiteSpace(request.coupon.ProductName))
+                validationErrors["ProductName"] = "Product name must not be empty";
+            if (string.IsNullOrWhiteSpace(request.coupon.Description))
+                validationErrors["Description"] = "Product Description must not be empty";
+            if (request.coupon.Amount <= 0)
+                validationErrors["Amount"] = "Amount must be greater than zero";
+
+            if(validationErrors.Any()) 
+            {
+                throw GrpcErrorHelper.CreateRpcValidationException(validationErrors);
+            }
+
+
             var coupon = request.coupon.ToEntity();
             var result = await _discountRepository.CreateCoupon(coupon);
             return result;
