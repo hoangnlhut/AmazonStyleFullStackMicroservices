@@ -1,9 +1,11 @@
 ﻿using Discount.DTOs;
+using Discount.Extensions;
 using Discount.Mappers;
 using Discount.Queries;
 using Discount.Repositories;
 using Grpc.Core;
 using MediatR;
+using Microsoft.IdentityModel.Tokens.Experimental;
 
 namespace Discount.Handlers.Queries
 {
@@ -25,6 +27,7 @@ namespace Discount.Handlers.Queries
                 {
                     { "ProductName", "Product name must not be empty" }
                 };
+                throw GrpcErrorHelper.CreateRpcValidationException(validationErrors);
             }
 
             //fetch from repo
