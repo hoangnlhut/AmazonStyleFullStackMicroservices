@@ -2,6 +2,7 @@
 using Discount.Extensions;
 using Discount.Mappers;
 using Discount.Repositories;
+using Grpc.Core;
 using MediatR;
 
 namespace Discount.Handlers.Commands
@@ -31,9 +32,13 @@ namespace Discount.Handlers.Commands
                 throw GrpcErrorHelper.CreateRpcValidationException(validationErrors);
             }
 
-
             var coupon = request.coupon.ToEntity();
             var result = await _discountRepository.CreateCoupon(coupon);
+            if (!result)
+            {
+                throw new RpcException(new Status(StatusCode.Internal, $"Cannot create discount for product {request.coupon.ProductName}"));
+            }
+
             return result;
         }
     }
