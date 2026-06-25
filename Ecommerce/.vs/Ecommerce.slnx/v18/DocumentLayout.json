@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6E858FF4-3893-4603-815C-516A908D1FF0}|Services\\Discount\\Discount.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\discount\\protos\\discount.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6E858FF4-3893-4603-815C-516A908D1FF0}|Services\\Discount\\Discount.csproj|solutionrelative:services\\discount\\protos\\discount.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E858FF4-3893-4603-815C-516A908D1FF0}|Services\\Discount\\Discount.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\discount\\extensions\\dbextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E858FF4-3893-4603-815C-516A908D1FF0}|Services\\Discount\\Discount.csproj|solutionrelative:services\\discount\\extensions\\dbextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E858FF4-3893-4603-815C-516A908D1FF0}|Services\\Discount\\Discount.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\discount\\repositories\\discountpostgrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E858FF4-3893-4603-815C-516A908D1FF0}|Services\\Discount\\Discount.csproj|solutionrelative:services\\discount\\repositories\\discountpostgrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03C56FDC-8732-AA4A-35C6-AAC03941B489}|Services\\Catalog\\Catalog.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\catalog\\data\\seeddata\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6E858FF4-3893-4603-815C-516A908D1FF0}|Services\\Discount\\Discount.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\discount\\handlers\\commands\\creatediscounthandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E858FF4-3893-4603-815C-516A908D1FF0}|Services\\Discount\\Discount.csproj|solutionrelative:services\\discount\\handlers\\commands\\creatediscounthandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E858FF4-3893-4603-815C-516A908D1FF0}|Services\\Discount\\Discount.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\discount\\repositories\\discountpostgrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E858FF4-3893-4603-815C-516A908D1FF0}|Services\\Discount\\Discount.csproj|solutionrelative:services\\discount\\repositories\\discountpostgrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E858FF4-3893-4603-815C-516A908D1FF0}|Services\\Discount\\Discount.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\discount\\handlers\\commands\\updatediscounthandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,13 +74,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DiscountPostgreRepository.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\Repositories\\DiscountPostgreRepository.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Repositories\\DiscountPostgreRepository.cs",
               "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\Repositories\\DiscountPostgreRepository.cs",
               "RelativeToolTip": "Services\\Discount\\Repositories\\DiscountPostgreRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-22T07:57:17.071Z",
               "IsPinned": true,
@@ -88,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "DiscountController.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\Controllers\\DiscountController.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Controllers\\DiscountController.cs",
@@ -96,12 +100,11 @@
               "RelativeToolTip": "Services\\Discount\\Controllers\\DiscountController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAApwCEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T07:17:04.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-22T07:17:04.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ConfigureServices.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\Bootstrappings\\ConfigureServices.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Bootstrappings\\ConfigureServices.cs",
@@ -109,12 +112,11 @@
               "RelativeToolTip": "Services\\Discount\\Bootstrappings\\ConfigureServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T11:56:42.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T11:56:42.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UpdateDiscountHandle.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\Handlers\\Commands\\UpdateDiscountHandle.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Handlers\\Commands\\UpdateDiscountHandle.cs",
@@ -122,18 +124,30 @@
               "RelativeToolTip": "Services\\Discount\\Handlers\\Commands\\UpdateDiscountHandle.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwCYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T07:09:24.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-22T07:09:24.351Z"
             }
           ]
         },
         {
           "DockedWidth": 173,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "discount.proto",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\Protos\\discount.proto",
+              "RelativeDocumentMoniker": "Services\\Discount\\Protos\\discount.proto",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\Protos\\discount.proto",
+              "RelativeToolTip": "Services\\Discount\\Protos\\discount.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-06-25T08:50:02.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "products.json",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Catalog\\Data\\SeedData\\products.json",
               "RelativeDocumentMoniker": "Services\\Catalog\\Data\\SeedData\\products.json",
@@ -142,18 +156,17 @@
               "ViewState": "AgIAAP8AAAAAAAAAAAAewBMBAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-06-24T12:06:21.669Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DbExtention.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\Extensions\\DbExtention.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Extensions\\DbExtention.cs",
               "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\Extensions\\DbExtention.cs",
               "RelativeToolTip": "Services\\Discount\\Extensions\\DbExtention.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T11:55:20.039Z",
               "IsPinned": true,
@@ -161,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CreateDiscountHandle.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\Handlers\\Commands\\CreateDiscountHandle.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Handlers\\Commands\\CreateDiscountHandle.cs",
@@ -169,12 +182,11 @@
               "RelativeToolTip": "Services\\Discount\\Handlers\\Commands\\CreateDiscountHandle.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T10:04:35.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T10:04:35.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\Program.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Program.cs",
@@ -182,12 +194,11 @@
               "RelativeToolTip": "Services\\Discount\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T11:56:34.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T11:56:34.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\appsettings.json",
               "RelativeDocumentMoniker": "Services\\Discount\\appsettings.json",
@@ -195,12 +206,11 @@
               "RelativeToolTip": "Services\\Discount\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-24T10:43:03.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T10:43:03.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DiscountDatabaseSettings.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\DiscountDatabaseSettings.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\DiscountDatabaseSettings.cs",
@@ -208,12 +218,11 @@
               "RelativeToolTip": "Services\\Discount\\DiscountDatabaseSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T10:43:00.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T10:43:00.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DeleteDiscountHandle.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\Handlers\\Commands\\DeleteDiscountHandle.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Handlers\\Commands\\DeleteDiscountHandle.cs",
@@ -221,12 +230,11 @@
               "RelativeToolTip": "Services\\Discount\\Handlers\\Commands\\DeleteDiscountHandle.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T10:28:59.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T10:28:59.932Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "GrpcErrorHelper.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\Extensions\\GrpcErrorHelper.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Extensions\\GrpcErrorHelper.cs",
@@ -234,12 +242,11 @@
               "RelativeToolTip": "Services\\Discount\\Extensions\\GrpcErrorHelper.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T10:14:20.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T10:14:20.655Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "GetDiscountByProductNameHandle.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\Handlers\\Queries\\GetDiscountByProductNameHandle.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Handlers\\Queries\\GetDiscountByProductNameHandle.cs",
@@ -247,12 +254,11 @@
               "RelativeToolTip": "Services\\Discount\\Handlers\\Queries\\GetDiscountByProductNameHandle.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T10:06:15.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T10:06:15.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UpdateDiscountCommand.cs",
               "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Discount\\Commands\\UpdateDiscountCommand.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Commands\\UpdateDiscountCommand.cs",
@@ -260,8 +266,7 @@
               "RelativeToolTip": "Services\\Discount\\Commands\\UpdateDiscountCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T10:04:51.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T10:04:51.013Z"
             }
           ]
         }
