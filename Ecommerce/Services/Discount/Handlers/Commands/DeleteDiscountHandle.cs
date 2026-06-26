@@ -28,12 +28,6 @@ namespace Discount.Handlers.Commands
             }
 
             var result = await _discountRepository.DeleteCoupon(request.productName);
-
-            if (!result)
-            {
-                throw new RpcException(new Status(StatusCode.NotFound, $"Cannot delete discount for product {request.productName}"));
-            }
-
             return result;
         }
     }

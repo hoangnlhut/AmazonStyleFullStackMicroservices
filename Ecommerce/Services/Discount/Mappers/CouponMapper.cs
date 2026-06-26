@@ -1,5 +1,7 @@
-﻿using Discount.DTOs;
+﻿using Discount.Commands;
+using Discount.DTOs;
 using Discount.Entities;
+using Discount.Grpc.Protos;
 using static Google.Rpc.Context.AttributeContext.Types;
 
 namespace Discount.Mappers
@@ -11,14 +13,46 @@ namespace Discount.Mappers
             return new CouponDto(coupon.Id, coupon.ProductName, coupon.Description, coupon.Amount);
         }
 
-        public static Coupon ToEntity(this CouponInput couponInput)
+        public static Coupon ToEntity(this CreateDiscountCommand command)
         {
             return new Coupon
             {
-                Id = couponInput.Id,
-                ProductName = couponInput.ProductName,
-                Description = couponInput.Description,
-                Amount = couponInput.Amount
+                ProductName = command.ProductName,
+                Description = command.Description,
+                Amount = command.Amount
+            };
+        }
+
+        public static Coupon ToEntity(this UpdateDiscountCommand command)
+        {
+            return new Coupon
+            {
+                Id = command.Id,
+                ProductName = command.ProductName,
+                Description = command.Description,
+                Amount = command.Amount
+            };
+        }
+
+        public static CouponModel ToModel(this CouponDto dto)
+        {
+            return new CouponModel
+            {
+                Id = dto.Id,
+                ProductName = dto.ProductName,
+                Description = dto.Description,
+                Amount = dto.Amount
+            };
+        }
+
+        public static Coupon ToEntity(this CouponModel model)
+        {
+            return new Coupon
+            {
+                Id = model.Id,
+                ProductName = model.ProductName,
+                Description = model.Description,
+                Amount = model.Amount
             };
         }
     }

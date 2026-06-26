@@ -1,4 +1,5 @@
 ﻿using Discount.Commands;
+using Discount.DTOs;
 using Discount.Extensions;
 using Discount.Mappers;
 using Discount.Repositories;
@@ -7,7 +8,7 @@ using MediatR;
 
 namespace Discount.Handlers.Commands
 {
-    public class UpdateDiscountHandle : IRequestHandler<UpdateDiscountCommand, bool>
+    public class UpdateDiscountHandle : IRequestHandler<UpdateDiscountCommand, CouponDto>
     {
         private readonly IDiscountRepository _discountRepository;
 
@@ -16,18 +17,18 @@ namespace Discount.Handlers.Commands
             _discountRepository = discountRepository;
         }
 
-        public async Task<bool> Handle(UpdateDiscountCommand request, CancellationToken cancellationToken)
+        public async Task<CouponDto> Handle(UpdateDiscountCommand request, CancellationToken cancellationToken)
         {
             var validationErrors = new Dictionary<string, string>();
 
             //input validation
-            if (request.couponInput.Id <= 0)
+            if (request.Id <= 0)
                 validationErrors["Id"] = "Id must not be empty";
-            if (string.IsNullOrWhiteSpace(request.couponInput.ProductName))
+            if (string.IsNullOrWhiteSpace(request.ProductName))
                 validationErrors["ProductName"] = "Product name must not be empty";
-            if (string.IsNullOrWhiteSpace(request.couponInput.Description))
+            if (string.IsNullOrWhiteSpace(request.Description))
                 validationErrors["Description"] = "Product Description must not be empty";
-            if (request.couponInput.Amount <= 0)
+            if (request.Amount <= 0)
                 validationErrors["Amount"] = "Amount must be greater than zero";
 
             if (validationErrors.Any())
@@ -35,15 +36,16 @@ namespace Discount.Handlers.Commands
                 throw GrpcErrorHelper.CreateRpcValidationException(validationErrors);
             }
 
-            var coupon = request.couponInput.ToEntity();
+            var coupon = request.ToEntity();
             var result = await _discountRepository.UpdateCoupon(coupon);
 
             if (!result)
             {
-                throw new RpcException(new Status(StatusCode.NotFound, $"Cannot update discount for product {request.couponInput.ProductName}"));
+                throw new RpcException(new Status(StatusCode.NotFound, $"Cannot update discount for product {request.ProductName}"));
             }
 
-            return result;
+            // to DTO
+            return coupon.ToDto();
         }
     }
 }

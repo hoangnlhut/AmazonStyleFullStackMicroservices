@@ -3,5 +3,5 @@ using MediatR;
 
 namespace Discount.Commands
 {
-    public record UpdateDiscountCommand(CouponInput couponInput) : IRequest<bool>;
+    public record UpdateDiscountCommand(int Id, string ProductName, string Description, int Amount) : IRequest<CouponDto>;
 }

@@ -1,4 +1,5 @@
 ﻿using Discount.Commands;
+using Discount.DTOs;
 using Discount.Extensions;
 using Discount.Mappers;
 using Discount.Repositories;
@@ -7,7 +8,7 @@ using MediatR;
 
 namespace Discount.Handlers.Commands
 {
-    public class CreateDiscountHandle : IRequestHandler<CreateDiscountCommand, bool>
+    public class CreateDiscountHandle : IRequestHandler<CreateDiscountCommand, CouponDto>
     {
         private readonly IDiscountRepository _discountRepository;
         public CreateDiscountHandle(IDiscountRepository discountRepository) 
@@ -15,16 +16,16 @@ namespace Discount.Handlers.Commands
             _discountRepository = discountRepository;
         }
 
-        public async Task<bool> Handle(CreateDiscountCommand request, CancellationToken cancellationToken)
+        public async Task<CouponDto> Handle(CreateDiscountCommand request, CancellationToken cancellationToken)
         {
             var validationErrors = new Dictionary<string, string>();
 
             //input validation
-            if (string.IsNullOrWhiteSpace(request.coupon.ProductName))
+            if (string.IsNullOrWhiteSpace(request.ProductName))
                 validationErrors["ProductName"] = "Product name must not be empty";
-            if (string.IsNullOrWhiteSpace(request.coupon.Description))
+            if (string.IsNullOrWhiteSpace(request.Description))
                 validationErrors["Description"] = "Product Description must not be empty";
-            if (request.coupon.Amount <= 0)
+            if (request.Amount <= 0)
                 validationErrors["Amount"] = "Amount must be greater than zero";
 
             if(validationErrors.Any()) 
@@ -32,14 +33,15 @@ namespace Discount.Handlers.Commands
                 throw GrpcErrorHelper.CreateRpcValidationException(validationErrors);
             }
 
-            var coupon = request.coupon.ToEntity();
+            var coupon = request.ToEntity();
             var result = await _discountRepository.CreateCoupon(coupon);
             if (!result)
             {
-                throw new RpcException(new Status(StatusCode.Internal, $"Cannot create discount for product {request.coupon.ProductName}"));
+                throw new RpcException(new Status(StatusCode.Internal, $"Cannot create discount for product {request.ProductName}"));
             }
 
-            return result;
+            //Return DTO
+            return coupon.ToDto();
         }
     }
 }
