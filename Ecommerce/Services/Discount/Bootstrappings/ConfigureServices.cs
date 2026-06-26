@@ -1,4 +1,5 @@
-﻿using Discount.Repositories;
+﻿using Discount.Queries;
+using Discount.Repositories;
 using System.Reflection;
 
 namespace Discount.Bootstrappings
@@ -7,18 +8,11 @@ namespace Discount.Bootstrappings
     {
         public static WebApplicationBuilder AddServices(this WebApplicationBuilder builder)
         {
-            builder.Services.AddControllers();
-
-            //Add Swagger services
-            //builder.Services.AddEndpointsApiExplorer();
-            //builder.Services.AddSwaggerGen();
-            builder.Services.AddOpenApi();
-
             //Register MediatR
             var assemblies = new Assembly[]
             {
                 Assembly.GetExecutingAssembly(),
-                //Assembly.GetAssembly(typeof(GetAllBrandsHandler))
+                typeof(GetDiscountByProductNameQuery).Assembly
             };
             builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
 
@@ -30,6 +24,9 @@ namespace Discount.Bootstrappings
 
             // custom services
             builder.Services.AddScoped<IDiscountRepository, DiscountPostgreRepository>();
+
+            //add Grpc services
+            builder.Services.AddGrpc();
 
             return builder;
         }

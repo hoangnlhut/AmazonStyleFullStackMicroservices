@@ -48,11 +48,18 @@
 
                     command.ExecuteNonQuery();
 
-                    command.CommandText = "INSERT INTO Coupon (ProductName, Description, Amount) VALUES ('Adidas Quick Force Indoor Badminton Shoes', 'Shoes Discount', 500)";
-                    command.ExecuteNonQuery();
+                    //check if the table is empty before inserting sample data
+                    command.CommandText = "SELECT COUNT(*) FROM Coupon";
+                    var count = (long)command.ExecuteScalar();
+                    if (count == 0)
+                    {
+                        command.CommandText = "INSERT INTO Coupon (ProductName, Description, Amount) VALUES ('Adidas Quick Force Indoor Badminton Shoes', 'Shoes Discount', 500) ";
+                        command.ExecuteNonQuery();
 
-                    command.CommandText = "INSERT INTO Coupon (ProductName, Description, Amount) VALUES ('Yonex VCORE Pro 100 A Tennis Racquet (270gm, Strung)', 'Racquet Discount', 700)";
-                    command.ExecuteNonQuery();
+
+                        command.CommandText = "INSERT INTO Coupon (ProductName, Description, Amount) VALUES ('Yonex VCORE Pro 100 A Tennis Racquet (270gm, Strung)', 'Racquet Discount', 700)";
+                        command.ExecuteNonQuery();
+                    }
 
                     break; // Exit the loop if migration is successful
                 }
