@@ -1,7 +1,7 @@
 ﻿using Discount.Commands;
 using Discount.DTOs;
 using Discount.Entities;
-using Discount.Grpc.Protos;
+using Discount.Grpc.Protos.Service;
 using static Google.Rpc.Context.AttributeContext.Types;
 
 namespace Discount.Mappers

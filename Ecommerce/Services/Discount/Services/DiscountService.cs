@@ -1,4 +1,4 @@
-﻿using Discount.Grpc.Protos;
+﻿using Discount.Grpc.Protos.Service;
 using Discount.Queries;
 using Grpc.Core;
 using MediatR;
