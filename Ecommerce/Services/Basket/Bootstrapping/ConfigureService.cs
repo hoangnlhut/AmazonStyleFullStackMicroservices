@@ -1,8 +1,8 @@
-﻿using Basket.Commands;
+﻿using Basket.GrpcService;
 using Basket.Handlers.Command;
 using Basket.Repositories;
+using Discount.Grpc.Protos.Client;
 using System.Reflection;
-using Microsoft.AspNetCore.OpenApi;
 
 namespace Basket.Bootstrapping
 {
@@ -38,6 +38,14 @@ namespace Basket.Bootstrapping
 
             // custom services
             builder.Services.AddScoped<IBasketRepository, BasketRepository>();
+            builder.Services.AddScoped<DiscountGrpcService>();
+
+            //add grpc Client
+            builder.Services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>(options =>
+                    {
+                        var discountUrl = builder.Configuration["GrpcSettings:DiscountUrl"] ?? throw new Exception("can't not find DiscountUrl");
+                        options.Address = new Uri(discountUrl);
+                    });
 
             return builder;
         }
