@@ -2,11 +2,11 @@
 
 namespace Basket.GrpcService
 {
-    public class DiscountGrpcServic
+    public class DiscountGrpcService
     {
         private readonly DiscountProtoService.DiscountProtoServiceClient _discountProtoServiceClient;
 
-        public DiscountGrpcServic(DiscountProtoService.DiscountProtoServiceClient discountProtoServiceClient)
+        public DiscountGrpcService(DiscountProtoService.DiscountProtoServiceClient discountProtoServiceClient)
         {
             _discountProtoServiceClient = discountProtoServiceClient;
         }
