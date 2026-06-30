@@ -7,6 +7,7 @@
             using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
+                
                 var configuration = services.GetRequiredService<DiscountDatabaseSettings>();
                 var logger = services.GetRequiredService<ILogger<TContext>>();
                 try
@@ -38,27 +39,37 @@
                     {
                         Connection = connection,
                     };
-                    command.CommandText = @"
-                        CREATE TABLE IF NOT EXISTS Coupon (
+
+                    command.CommandText = "SELECT COUNT(*) FROM Coupon";
+                    var countRecord = (long)command.ExecuteScalar();
+
+                    if (countRecord == 0)
+                    {
+                        command.CommandText = "DROP TABLE IF EXISTS Coupon";
+                        command.ExecuteNonQuery();
+
+                        command.CommandText = @"
+                        CREATE TABLE Coupon (
                             Id SERIAL PRIMARY KEY,
-                            ProductName VARCHAR(24) NOT NULL,
+                            ProductName VARCHAR(500) NOT NULL,
                             Description TEXT,
                             Amount INT
                         );";
 
-                    command.ExecuteNonQuery();
-
-                    //check if the table is empty before inserting sample data
-                    command.CommandText = "SELECT COUNT(*) FROM Coupon";
-                    var count = (long)command.ExecuteScalar();
-                    if (count == 0)
-                    {
-                        command.CommandText = "INSERT INTO Coupon (ProductName, Description, Amount) VALUES ('Adidas Quick Force Indoor Badminton Shoes', 'Shoes Discount', 500) ";
                         command.ExecuteNonQuery();
 
+                        //check if the table is empty before inserting sample data
+                        command.CommandText = "SELECT COUNT(*) FROM Coupon";
+                        var count = (long)command.ExecuteScalar();
+                        if (count == 0)
+                        {
+                            command.CommandText = "INSERT INTO Coupon (ProductName, Description, Amount) VALUES ('Adidas Quick Force Indoor Badminton Shoes', 'Shoes Discount', 500) ";
+                            command.ExecuteNonQuery();
 
-                        command.CommandText = "INSERT INTO Coupon (ProductName, Description, Amount) VALUES ('Yonex VCORE Pro 100 A Tennis Racquet (270gm, Strung)', 'Racquet Discount', 700)";
-                        command.ExecuteNonQuery();
+
+                            command.CommandText = "INSERT INTO Coupon (ProductName, Description, Amount) VALUES ('Yonex VCORE Pro 100 A Tennis Racquet (270gm, Strung)', 'Racquet Discount', 700)";
+                            command.ExecuteNonQuery();
+                        }
                     }
 
                     break; // Exit the loop if migration is successful

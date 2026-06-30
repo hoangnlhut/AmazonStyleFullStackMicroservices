@@ -9,11 +9,11 @@ using Microsoft.IdentityModel.Tokens.Experimental;
 
 namespace Discount.Handlers.Queries
 {
-    public class GetDiscountByProductNameHandle : IRequestHandler<GetDiscountByProductNameQuery, CouponDto>
+    public class GetDiscountByProductNameHandler : IRequestHandler<GetDiscountByProductNameQuery, CouponDto>
     {
         private readonly IDiscountRepository _discountRepository;
 
-        public GetDiscountByProductNameHandle(IDiscountRepository discountRepository)
+        public GetDiscountByProductNameHandler(IDiscountRepository discountRepository)
         {
             _discountRepository = discountRepository;
         }

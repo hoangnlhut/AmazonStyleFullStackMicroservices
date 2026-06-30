@@ -1,5 +1,7 @@
-﻿using Discount.Queries;
+﻿using Discount.Handlers.Commands;
+using Discount.Queries;
 using Discount.Repositories;
+using Microsoft.Extensions.Options;
 using System.Reflection;
 
 namespace Discount.Bootstrappings
@@ -8,18 +10,21 @@ namespace Discount.Bootstrappings
     {
         public static WebApplicationBuilder AddServices(this WebApplicationBuilder builder)
         {
+            // register database settings and seeder
+            builder.Services.Configure<DiscountDatabaseSettings>(
+                builder.Configuration.GetSection("DatabaseSettings"));
+
+            // Register as a singleton for direct injection (as in your code)
+            builder.Services.AddSingleton(resolver =>
+                resolver.GetRequiredService<IOptions<DiscountDatabaseSettings>>().Value);
+
             //Register MediatR
             var assemblies = new Assembly[]
             {
                 Assembly.GetExecutingAssembly(),
-                typeof(GetDiscountByProductNameQuery).Assembly
+                typeof(CreateDiscountHandler).Assembly
             };
             builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
-
-
-            // register database settings and seeder
-            builder.Services.Configure<DiscountDatabaseSettings>(
-                builder.Configuration.GetSection("DatabaseSettings"));
 
 
             // custom services

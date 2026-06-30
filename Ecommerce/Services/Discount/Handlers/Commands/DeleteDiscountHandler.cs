@@ -6,11 +6,11 @@ using MediatR;
 
 namespace Discount.Handlers.Commands
 {
-    public class DeleteDiscountHandle : IRequestHandler<DeleteDiscountCommand, bool>
+    public class DeleteDiscountHandler : IRequestHandler<DeleteDiscountCommand, bool>
     {
         private readonly IDiscountRepository _discountRepository;
 
-        public DeleteDiscountHandle(IDiscountRepository discountRepository)
+        public DeleteDiscountHandler(IDiscountRepository discountRepository)
         {
             _discountRepository = discountRepository;
         }

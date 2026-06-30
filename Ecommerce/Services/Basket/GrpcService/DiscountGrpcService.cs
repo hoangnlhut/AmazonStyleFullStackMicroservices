@@ -17,4 +17,5 @@ namespace Basket.GrpcService
             var response = await _discountProtoServiceClient.GetDiscountAsync(request);
             return response;
         }
+    }
 }

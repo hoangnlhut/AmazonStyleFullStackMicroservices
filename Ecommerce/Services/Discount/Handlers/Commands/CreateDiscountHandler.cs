@@ -8,10 +8,10 @@ using MediatR;
 
 namespace Discount.Handlers.Commands
 {
-    public class CreateDiscountHandle : IRequestHandler<CreateDiscountCommand, CouponDto>
+    public class CreateDiscountHandler : IRequestHandler<CreateDiscountCommand, CouponDto>
     {
         private readonly IDiscountRepository _discountRepository;
-        public CreateDiscountHandle(IDiscountRepository discountRepository) 
+        public CreateDiscountHandler(IDiscountRepository discountRepository) 
         {
             _discountRepository = discountRepository;
         }

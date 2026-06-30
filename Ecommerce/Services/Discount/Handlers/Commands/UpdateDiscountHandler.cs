@@ -8,11 +8,11 @@ using MediatR;
 
 namespace Discount.Handlers.Commands
 {
-    public class UpdateDiscountHandle : IRequestHandler<UpdateDiscountCommand, CouponDto>
+    public class UpdateDiscountHandler : IRequestHandler<UpdateDiscountCommand, CouponDto>
     {
         private readonly IDiscountRepository _discountRepository;
 
-        public UpdateDiscountHandle(IDiscountRepository discountRepository)
+        public UpdateDiscountHandler(IDiscountRepository discountRepository)
         {
             _discountRepository = discountRepository;
         }
