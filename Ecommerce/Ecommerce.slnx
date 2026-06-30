@@ -9,4 +9,7 @@
   <Folder Name="/Services/Discount/">
     <Project Path="Services/Discount/Discount.csproj" Id="6e858ff4-3893-4603-815c-516a908d1ff0" />
   </Folder>
+  <Folder Name="/Services/Ordering/">
+    <Project Path="Services/Ordering/Ordering.csproj" Id="c9df1e57-1b5e-4547-8fe8-9912859514fa" />
+  </Folder>
 </Solution>
