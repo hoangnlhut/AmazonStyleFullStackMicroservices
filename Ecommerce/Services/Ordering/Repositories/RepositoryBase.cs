@@ -17,19 +17,19 @@ namespace Ordering.Repositories
         public async Task<T> AddAsync(T entity)
         {
             _orderContext.Set<T>().Add(entity);
-            await SaveChangeAsync();
+            await _orderContext.SaveChangesAsync();
             return entity;
         }
 
         public async Task DeleteAsync(T entity)
         {
             _orderContext.Set<T>().Remove(entity);
-            await SaveChangeAsync();
+            await _orderContext.SaveChangesAsync();
         }
 
         public async Task<IReadOnlyList<T>> GetAllAsync()   
         {
-            return await _orderContext.Set<T>().AsNoTracking().ToListAsync();
+            return await _orderContext.Set<T>().AsNoTracking.ToListAsync();
         }
 
         public async Task<IReadOnlyList<T>> GetAllAsync(Expression<Func<T, bool>> predicate)
@@ -45,11 +45,6 @@ namespace Ordering.Repositories
         public async Task UpdateAsync(T entity)
         {
             _orderContext.Entry(entity).State = EntityState.Modified;
-            await SaveChangeAsync();
-        }
-
-        private async Task SaveChangeAsync()
-        {
             await _orderContext.SaveChangesAsync();
         }
     }
