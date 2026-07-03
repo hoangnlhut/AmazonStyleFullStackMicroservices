@@ -1,4 +1,5 @@
-﻿using Ordering.DTOs;
+﻿using Ordering.Commands;
+using Ordering.DTOs;
 using Ordering.Entities;
 
 namespace Ordering.Mappers
@@ -27,6 +28,27 @@ namespace Ordering.Mappers
                 entity.Expiration, 
                 entity.Cw, 
                 entity.PaymentMethod ?? 0);
+        }
+
+        public static Order ToEntity(this CheckoutOrderCommand cmd)
+        {
+            return new Order
+            {
+                UserName = cmd.UserName,
+                TotalPrice = cmd.TotalPrice,
+                FirstName = cmd.FirstName,
+                LastName = cmd.LastName,
+                EmailAddress = cmd.EmailAddress,
+                AddressLine = cmd.AddressLine,
+                Country = cmd.Country,
+                State = cmd.State,
+                ZipCode = cmd.ZipCode,
+                CardName = cmd.CardName,
+                CardNumber = cmd.CardNumber,
+                Expiration = cmd.Expiration,
+                Cw = cmd.Cw,
+                PaymentMethod = cmd.PaymentMethod
+            };
         }
     }
 }
