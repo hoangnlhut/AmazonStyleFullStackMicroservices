@@ -47,7 +47,7 @@ namespace Ordering.Mappers
                 CardName = cmd.CardName,
                 CardNumber = cmd.CardNumber,
                 Expiration = cmd.Expiration,
-                Cw = cmd.Cw,
+                Cw = cmd.Cvv,
                 PaymentMethod = cmd.PaymentMethod
             };
         }
