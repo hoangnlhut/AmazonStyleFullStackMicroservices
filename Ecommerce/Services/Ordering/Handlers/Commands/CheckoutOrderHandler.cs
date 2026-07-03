@@ -17,7 +17,7 @@ namespace Ordering.Handlers.Commands
         }
         public async Task<int> Handle(CheckoutOrderCommand request, CancellationToken cancellationToken)
         {
-            var entity = request.ToEntity();
+            var entity = request.CheckoutToEntity();
             var generateOrder = await _orderRepository.AddAsync(entity);
             _logger.LogInformation($"Order {generateOrder.Id} is successfully created.");
             return generateOrder.Id;

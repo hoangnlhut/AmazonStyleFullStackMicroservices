@@ -1,6 +1,7 @@
 ﻿using Ordering.Commands;
 using Ordering.DTOs;
 using Ordering.Entities;
+using Ordering.Handlers.Commands;
 
 namespace Ordering.Mappers
 {
@@ -30,7 +31,7 @@ namespace Ordering.Mappers
                 entity.PaymentMethod ?? 0);
         }
 
-        public static Order ToEntity(this CheckoutOrderCommand cmd)
+        public static Order CheckoutToEntity(this CheckoutOrderCommand cmd)
         {
             return new Order
             {
@@ -49,6 +50,26 @@ namespace Ordering.Mappers
                 Cw = cmd.Cw,
                 PaymentMethod = cmd.PaymentMethod
             };
+        }
+
+        public static Order MapUpdate(this Order origin, UpdateOrderCommand cmd)
+        {
+            origin.UserName = cmd.UserName;
+            origin.TotalPrice = cmd.TotalPrice;
+            origin.FirstName = cmd.FirstName;
+            origin.LastName = cmd.LastName;
+            origin.EmailAddress = cmd.EmailAddress;
+            origin.AddressLine = cmd.AddressLine;
+            origin.Country = cmd.Country;
+            origin.State = cmd.State;
+            origin.ZipCode = cmd.ZipCode;
+            origin.CardName = cmd.CardName;
+            origin.CardNumber = cmd.CardNumber;
+            origin.Expiration = cmd.Expiration;
+            origin.Cw = cmd.Cw;
+            origin.PaymentMethod = cmd.PaymentMethod;
+
+            return origin;
         }
     }
 }
