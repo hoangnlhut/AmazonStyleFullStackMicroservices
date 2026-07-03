@@ -1,6 +1,6 @@
 ﻿namespace Ordering.DTOs
 {
-    record OrderDto
+    public record OrderDto
     (
         int Id,
         string UserName,

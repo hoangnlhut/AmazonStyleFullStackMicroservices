@@ -20,12 +20,9 @@
     <Folder Include="Controllers\" />
     <Folder Include="Commands\" />
     <Folder Include="Handlers\Commands\" />
-    <Folder Include="Handlers\Queries\" />
     <Folder Include="Bootstrappings\" />
     <Folder Include="Behaviors\" />
-    <Folder Include="Mappers\" />
     <Folder Include="Extensions\" />
-    <Folder Include="Queries\" />
   </ItemGroup>
 
 </Project>
