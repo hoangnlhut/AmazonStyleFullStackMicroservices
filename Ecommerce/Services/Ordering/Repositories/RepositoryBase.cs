@@ -7,7 +7,7 @@ namespace Ordering.Repositories
 {
     public class RepositoryBase<T> : IAsyncRepository<T> where T : EntityBase
     {
-        private readonly OrderContext _orderContext;
+        protected readonly OrderContext _orderContext;
 
         public RepositoryBase(OrderContext orderContext)
         {
@@ -29,7 +29,7 @@ namespace Ordering.Repositories
 
         public async Task<IReadOnlyList<T>> GetAllAsync()   
         {
-            return await _orderContext.Set<T>().AsNoTracking.ToListAsync();
+            return await _orderContext.Set<T>().AsNoTracking().ToListAsync();
         }
 
         public async Task<IReadOnlyList<T>> GetAllAsync(Expression<Func<T, bool>> predicate)
