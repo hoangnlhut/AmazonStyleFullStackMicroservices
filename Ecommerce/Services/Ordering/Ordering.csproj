@@ -21,7 +21,6 @@
     <Folder Include="Commands\" />
     <Folder Include="Handlers\Commands\" />
     <Folder Include="Handlers\Queries\" />
-    <Folder Include="DTOs\" />
     <Folder Include="Bootstrappings\" />
     <Folder Include="Behaviors\" />
     <Folder Include="Mappers\" />
