@@ -66,7 +66,7 @@ namespace Ordering.Mappers
             origin.CardName = request.CardName;
             origin.CardNumber = request.CardNumber;
             origin.Expiration = request.Expiration;
-            origin.Cw = request.Cw;
+            origin.Cw = request.Cvv;
             origin.PaymentMethod = request.PaymentMethod;
 
             return origin;
