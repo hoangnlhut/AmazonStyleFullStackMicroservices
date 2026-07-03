@@ -2,6 +2,7 @@
 using Ordering.Commands;
 using Ordering.DTOs;
 using Ordering.Entities;
+using Ordering.Exceptions;
 using Ordering.Mappers;
 using Ordering.Repositories;
 
@@ -24,7 +25,7 @@ namespace Ordering.Handlers.Commands
             if (orderExist == null)
             {
                 _logger.LogWarning($"Order with id {request.Id} not found.");
-                throw new ArgumentException($"Order with id {request.Id} not found.");
+                throw new OrderException(nameof(Order), request.Id, "is not found");
             }
 
             orderExist.MapUpdate(request);

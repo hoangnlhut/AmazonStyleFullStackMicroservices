@@ -52,22 +52,22 @@ namespace Ordering.Mappers
             };
         }
 
-        public static Order MapUpdate(this Order origin, UpdateOrderCommand cmd)
+        public static Order MapUpdate(this Order origin, UpdateOrderCommand request)
         {
-            origin.UserName = cmd.UserName;
-            origin.TotalPrice = cmd.TotalPrice;
-            origin.FirstName = cmd.FirstName;
-            origin.LastName = cmd.LastName;
-            origin.EmailAddress = cmd.EmailAddress;
-            origin.AddressLine = cmd.AddressLine;
-            origin.Country = cmd.Country;
-            origin.State = cmd.State;
-            origin.ZipCode = cmd.ZipCode;
-            origin.CardName = cmd.CardName;
-            origin.CardNumber = cmd.CardNumber;
-            origin.Expiration = cmd.Expiration;
-            origin.Cw = cmd.Cw;
-            origin.PaymentMethod = cmd.PaymentMethod;
+            origin.UserName = request.UserName;
+            origin.TotalPrice = request.TotalPrice;
+            origin.FirstName = request.FirstName;
+            origin.LastName = request.LastName;
+            origin.EmailAddress = request.EmailAddress;
+            origin.AddressLine = request.AddressLine;
+            origin.Country = request.Country;
+            origin.State = request.State;
+            origin.ZipCode = request.ZipCode;
+            origin.CardName = request.CardName;
+            origin.CardNumber = request.CardNumber;
+            origin.Expiration = request.Expiration;
+            origin.Cw = request.Cw;
+            origin.PaymentMethod = request.PaymentMethod;
 
             return origin;
         }
