@@ -19,7 +19,6 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Bootstrappings\" />
-    <Folder Include="Behaviors\" />
     <Folder Include="Extensions\" />
   </ItemGroup>
 

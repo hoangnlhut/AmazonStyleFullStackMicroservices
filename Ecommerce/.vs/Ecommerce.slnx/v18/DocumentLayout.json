@@ -3,12 +3,84 @@
   "WorkspaceRootPath": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\ordering.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\ordering.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\commands\\checkoutordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\commands\\checkoutordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\validators\\updateordercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\validators\\updateordercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\handlers\\commands\\updateorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\handlers\\commands\\updateorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\commands\\updateordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\commands\\updateordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\validators\\checkoutordercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\validators\\checkoutordercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\handlers\\commands\\deleteorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\handlers\\commands\\deleteorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\commands\\deleteordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\commands\\deleteordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\mappers\\ordermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\mappers\\ordermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\entities\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\entities\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\handlers\\commands\\checkoutorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\handlers\\commands\\checkoutorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\queries\\getorderlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\queries\\getorderlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\handlers\\queries\\getorderlisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\handlers\\queries\\getorderlisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\repositories\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\repositories\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|e:\\learning\\self_training_folder\\a999_dotnet_microservices\\amazonstylefullstackmicroservices\\ecommerce\\services\\ordering\\data\\ordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF1E57-1B5E-4547-8FE8-9912859514FA}|Services\\Ordering\\Ordering.csproj|solutionrelative:services\\ordering\\data\\ordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,37 +89,281 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 357,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 335,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderMapper.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Mappers\\OrderMapper.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Mappers\\OrderMapper.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Mappers\\OrderMapper.cs",
+              "RelativeToolTip": "Services\\Ordering\\Mappers\\OrderMapper.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAUwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T02:50:48.335Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ordering.http",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Ordering.http",
-              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.http",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Ordering.http",
-              "RelativeToolTip": "Services\\Ordering\\Ordering.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-06-30T15:19:45.967Z",
+              "DocumentIndex": 1,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Repositories\\RepositoryBase.cs",
+              "RelativeToolTip": "Services\\Ordering\\Repositories\\RepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T05:58:42.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Program.cs",
-              "RelativeDocumentMoniker": "Services\\Ordering\\Program.cs",
-              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Program.cs",
-              "RelativeToolTip": "Services\\Ordering\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "IAsyncRepository.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Repositories\\IAsyncRepository.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Repositories\\IAsyncRepository.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Repositories\\IAsyncRepository.cs",
+              "RelativeToolTip": "Services\\Ordering\\Repositories\\IAsyncRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T15:19:43.517Z",
+              "WhenOpened": "2026-07-01T04:20:58.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Repositories\\OrderRepository.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "Services\\Ordering\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T11:28:07.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Entities\\Order.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Entities\\Order.cs",
+              "RelativeToolTip": "Services\\Ordering\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T04:07:26.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EntityBase.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Entities\\EntityBase.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Entities\\EntityBase.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Entities\\EntityBase.cs",
+              "RelativeToolTip": "Services\\Ordering\\Entities\\EntityBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T04:04:59.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "Services\\Ordering\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T08:15:40.714Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 380,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateOrderHandler.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Handlers\\Commands\\UpdateOrderHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Handlers\\Commands\\UpdateOrderHandler.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Handlers\\Commands\\UpdateOrderHandler.cs",
+              "RelativeToolTip": "Services\\Ordering\\Handlers\\Commands\\UpdateOrderHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T04:35:06.477Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeleteOrderHandler.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Handlers\\Commands\\DeleteOrderHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Handlers\\Commands\\DeleteOrderHandler.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Handlers\\Commands\\DeleteOrderHandler.cs",
+              "RelativeToolTip": "Services\\Ordering\\Handlers\\Commands\\DeleteOrderHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T11:46:06.779Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateOrderCommandValidator.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Validators\\UpdateOrderCommandValidator.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Validators\\UpdateOrderCommandValidator.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Validators\\UpdateOrderCommandValidator.cs",
+              "RelativeToolTip": "Services\\Ordering\\Validators\\UpdateOrderCommandValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T12:20:23.617Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "Services\\Ordering\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T09:28:50.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CheckoutOrderCommandValidator.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Validators\\CheckoutOrderCommandValidator.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Validators\\CheckoutOrderCommandValidator.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Validators\\CheckoutOrderCommandValidator.cs",
+              "RelativeToolTip": "Services\\Ordering\\Validators\\CheckoutOrderCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T12:05:55.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeleteOrderCommand.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Commands\\DeleteOrderCommand.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Commands\\DeleteOrderCommand.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Commands\\DeleteOrderCommand.cs",
+              "RelativeToolTip": "Services\\Ordering\\Commands\\DeleteOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T11:43:22.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateOrderCommand.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Commands\\UpdateOrderCommand.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Commands\\UpdateOrderCommand.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Commands\\UpdateOrderCommand.cs",
+              "RelativeToolTip": "Services\\Ordering\\Commands\\UpdateOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T04:32:17.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CheckoutOrderHandler.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Handlers\\Commands\\CheckoutOrderHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Handlers\\Commands\\CheckoutOrderHandler.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Handlers\\Commands\\CheckoutOrderHandler.cs",
+              "RelativeToolTip": "Services\\Ordering\\Handlers\\Commands\\CheckoutOrderHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T04:03:35.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CheckoutOrderCommand.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Commands\\CheckoutOrderCommand.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Commands\\CheckoutOrderCommand.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Commands\\CheckoutOrderCommand.cs",
+              "RelativeToolTip": "Services\\Ordering\\Commands\\CheckoutOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T04:01:08.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetOrderListHandler.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Handlers\\Queries\\GetOrderListHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Handlers\\Queries\\GetOrderListHandler.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Handlers\\Queries\\GetOrderListHandler.cs",
+              "RelativeToolTip": "Services\\Ordering\\Handlers\\Queries\\GetOrderListHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T02:19:58.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetOrderListQuery.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Queries\\GetOrderListQuery.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Queries\\GetOrderListQuery.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Queries\\GetOrderListQuery.cs",
+              "RelativeToolTip": "Services\\Ordering\\Queries\\GetOrderListQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T02:18:35.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\DTOs\\OrderDto.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\DTOs\\OrderDto.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\DTOs\\OrderDto.cs",
+              "RelativeToolTip": "Services\\Ordering\\DTOs\\OrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T02:13:05.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderContext.cs",
+              "DocumentMoniker": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Data\\OrderContext.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Data\\OrderContext.cs",
+              "ToolTip": "E:\\LEARNING\\SELF_TRAINING_FOLDER\\A999_DotNet_Microservices\\AmazonStyleFullStackMicroservices\\Ecommerce\\Services\\Ordering\\Data\\OrderContext.cs",
+              "RelativeToolTip": "Services\\Ordering\\Data\\OrderContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T05:52:30.404Z",
               "EditorCaption": ""
             }
           ]
