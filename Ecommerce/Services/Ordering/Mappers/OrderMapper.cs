@@ -27,7 +27,7 @@ namespace Ordering.Mappers
                 entity.CardName, 
                 entity.CardNumber, 
                 entity.Expiration, 
-                entity.Cw, 
+                entity.Cvv, 
                 entity.PaymentMethod ?? 0);
         }
 
@@ -47,7 +47,7 @@ namespace Ordering.Mappers
                 CardName = cmd.CardName,
                 CardNumber = cmd.CardNumber,
                 Expiration = cmd.Expiration,
-                Cw = cmd.Cvv,
+                Cvv = cmd.Cvv,
                 PaymentMethod = cmd.PaymentMethod
             };
         }
@@ -66,7 +66,7 @@ namespace Ordering.Mappers
             origin.CardName = request.CardName;
             origin.CardNumber = request.CardNumber;
             origin.Expiration = request.Expiration;
-            origin.Cw = request.Cvv;
+            origin.Cvv = request.Cvv;
             origin.PaymentMethod = request.PaymentMethod;
 
             return origin;
