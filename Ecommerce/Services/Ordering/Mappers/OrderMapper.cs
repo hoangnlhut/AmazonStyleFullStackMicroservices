@@ -71,5 +71,48 @@ namespace Ordering.Mappers
 
             return origin;
         }
+
+        public static CheckoutOrderCommand ToCommand(this CreateOrderDto dto)
+        {
+            return new CheckoutOrderCommand
+            {
+                UserName = dto.UserName,
+                TotalPrice = dto.TotalPrice ?? 0,
+                FirstName = dto.FirstName,
+                LastName = dto.LastName,
+                EmailAddress = dto.EmailAddress,
+                AddressLine = dto.AddressLine,
+                Country = dto.Country,
+                State = dto.State,
+                ZipCode = dto.ZipCode,
+                CardName = dto.CardName,
+                CardNumber = dto.CardNumber,
+                Expiration = dto.Expiration,
+                Cvv = dto.Cvv,
+                PaymentMethod = dto.PaymentMethod ?? 0
+            };
+        }
+
+        public static UpdateOrderCommand ToCommand(this OrderDto dto)
+        {
+            return new UpdateOrderCommand
+            {
+                Id = dto.Id,
+                UserName = dto.UserName,
+                TotalPrice = dto.TotalPrice ?? 0,
+                FirstName = dto.FirstName,
+                LastName = dto.LastName,
+                EmailAddress = dto.EmailAddress,
+                AddressLine = dto.AddressLine,
+                Country = dto.Country,
+                State = dto.State,
+                ZipCode = dto.ZipCode,
+                CardName = dto.CardName,
+                CardNumber = dto.CardNumber,
+                Expiration = dto.Expiration,
+                Cvv = dto.Cvv,
+                PaymentMethod = dto.PaymentMethod ?? 0
+            };
+        }
     }
 }
