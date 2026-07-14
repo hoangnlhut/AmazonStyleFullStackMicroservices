@@ -77,7 +77,7 @@ namespace Ordering.Mappers
             return new CheckoutOrderCommand
             {
                 UserName = dto.UserName,
-                TotalPrice = dto.TotalPrice ?? 0,
+                TotalPrice = dto.TotalPrice,
                 FirstName = dto.FirstName,
                 LastName = dto.LastName,
                 EmailAddress = dto.EmailAddress,
@@ -89,7 +89,7 @@ namespace Ordering.Mappers
                 CardNumber = dto.CardNumber,
                 Expiration = dto.Expiration,
                 Cvv = dto.Cvv,
-                PaymentMethod = dto.PaymentMethod ?? 0
+                PaymentMethod = dto.PaymentMethod
             };
         }
 
@@ -99,7 +99,7 @@ namespace Ordering.Mappers
             {
                 Id = dto.Id,
                 UserName = dto.UserName,
-                TotalPrice = dto.TotalPrice ?? 0,
+                TotalPrice = dto.TotalPrice,
                 FirstName = dto.FirstName,
                 LastName = dto.LastName,
                 EmailAddress = dto.EmailAddress,
@@ -111,7 +111,7 @@ namespace Ordering.Mappers
                 CardNumber = dto.CardNumber,
                 Expiration = dto.Expiration,
                 Cvv = dto.Cvv,
-                PaymentMethod = dto.PaymentMethod ?? 0
+                PaymentMethod = dto.PaymentMethod
             };
         }
     }

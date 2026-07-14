@@ -15,7 +15,7 @@
         string CardName,
         string CardNumber,
         string Expiration,
-        string Cw,
+        string Cvv,
         int PaymentMethod
     );
 
@@ -33,7 +33,7 @@
         string CardName,
         string CardNumber,
         string Expiration,
-        string Cw,
+        string Cvv,
         int PaymentMethod
     );
 }
